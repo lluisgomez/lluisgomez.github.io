@@ -30,6 +30,10 @@ width: auto;
 text-align: justify;
 }
 
+.video_cont {
+margin-left: 10px;
+}
+
 .button__about {
 box-sizing: border-box;
 color: rgb(0, 0, 0);
