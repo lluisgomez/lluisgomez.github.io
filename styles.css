@@ -1,5 +1,9 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:700);
 
+em { 
+    font-weight: bold;
+}
+
 .entry-title
 {
   color: #000000;
@@ -13,7 +17,7 @@
   position: relative;
 }
 
-.entry-content {
+.entry-content.citation {
 box-sizing: border-box;
 color: rgb(0, 0, 0);
 display: inline;
