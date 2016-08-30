@@ -1,7 +1,14 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:700);
 
 em { 
-    font-weight: bold;
+}
+
+b {
+font-weight: bold;
+}
+
+a {
+color: rgb(13, 13, 13);
 }
 
 .entry-title
@@ -20,7 +27,6 @@ em {
 .citation {
 box-sizing: border-box;
 color: rgb(0, 0, 0);
-display: inline;
 font-family: HelveticaNeue-Light, 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
 font-size: 15px;
 font-weight: 100;
@@ -57,7 +63,7 @@ margin-left: 10px;
 
 .button__about {
 box-sizing: border-box;
-color: rgb(0, 0, 0);
+color: rgb(13, 13, 13);
 display: inline;
 font-family: HelveticaNeue-Light, 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
 font-size: 15px;
@@ -90,7 +96,7 @@ width: auto;
 
 .site-title {
 box-sizing: border-box;
-color: rgb(0, 0, 0);
+color: rgb(255,255,255);
 display: inline;
 font-family: 'Helvetica Nueue', Helvetica, sans-serif;
 font-size: 27px;
@@ -111,18 +117,30 @@ width: auto;
 
 .site-description {
 box-sizing: border-box;
-color: rgb(0, 0, 0);
-display: inline;
+color: rgb(255,255,255);
+display: inline-block;
 font-family: HelveticaNeue-Light, 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
 font-size: 15px;
-font-weight: 100;
+font-weight: 500;
 height: auto;
 line-height: 17px;
 margin-bottom: 0px;
-margin-left: 0px;
+margin-left: 10px;
 margin-right: 0px;
 margin-top: 0px;
 text-align: center;
+width: auto;
+}
+
+.site-main {
+margin-bottom: 10px;
+margin-left: 10px;
+margin-right: 10px;
+margin-top: 0px;
+padding-bottom: 0px;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 0px;
 width: auto;
 }
 
@@ -259,5 +277,38 @@ width: auto;
   }
   #cssmenu ul li a:before {
     display: none;
+  }
+}
+
+.wrapper { 
+  border : 2px solid #000; 
+  overflow:hidden;
+}
+
+.wrapper div {
+   min-height: 200px;
+   padding: 10px;
+}
+#one {
+  float:left; 
+  margin-right:20px;
+  width:360px;
+  text-align: center;
+}
+#two { 
+  background-color: white;
+  overflow:hidden;
+  margin:10px;
+  border:2px dashed #ccc;
+  min-height:170px;
+}
+
+@media screen and (max-width: 820px) {
+   #one { 
+    float: none;
+    margin-right:0;
+    width:auto;
+    border:0;
+    border-bottom:2px solid #000;    
   }
 }
