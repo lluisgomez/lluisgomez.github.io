@@ -54,12 +54,80 @@
   <div class="entry-content">
     <div class="wrapper">
       <div id="one">
+<video class="video_cont" width="320" height="240" controls autoplay loop><source src="img/research_05.ogv" type="video/ogg"><source src="img/research_05.mp4" type="video/mp4"></video>
+      </div>
+      <div id="two">
+<i><b>Scene text detection with Fully Convolutional Networks</b></i>
+<p>Text Proposals have emerged as a class-dependent version of object proposals -- efficient approaches to reduce the search space of possible text object locations and extents in an image. Combined with strong word classifiers, text proposals currently yield top state-of-the-art results in end-to-end scene text recognition. In this paper we propose an improvement over the original Text Proposals algorithm (Gomez and Karatzas 2015), combining it with Fully Convolutional Networks to improve the ranking of proposals. Results on the ICDAR RRC and the Coco-text datasets show superior performance over the current state-of-the-art.</p>
+<li class="citation">
+		Dena Bazazian, Raul Gomez, Anguelos Nicolaou, Lluis Gomez, Dimosthenis Karatzas, &amp; Andrew D. Bagdanov. (2016). <a target="_blank" href="http://refbase.cvc.uab.es/files/BGN2016.pdf">"Improving Text Proposals for Scene Images with Fully Convolutional Networks."</a> In Proc. <i>1st International Workshop on Deep Learning for Pattern Recognition, ICPR Workshops 2016</i>. [<a class="code" target="_blank" href="http://refbase.cvc.uab.es/files/BGN2016.pdf">PDF</a>]
+</span>
+      </div>
+    </div>
+    <br>
+    <div class="wrapper">
+      <div id="one">
+<img src="img/research_04.png" width=320>
+      </div>
+      <div id="two">
+<i><b>Dynamic Lexicon Generation for Natural Scene Images</b></i>
+<p>Many scene text understanding methods approach the end-to-end recognition problem from a word-spotting perspective and take huge benefit from using small per-image lexicons. Such customized lexicons are normally assumed as given and their source is rarely discussed.</p>
+<p>In this work we propose a method that generates contextualized lexicons for scene images using only visual information. For this, we exploit the correlation between visual and textual information in a dataset consisting of images and textual content associated with them. Using the LDA topic modeling framework to discover a set of latent topics in such a dataset allows us to re-rank a fixed dictionary in a way that prioritizes the words that are more likely to appear in a given image. Moreover, we train a CNN that is able to reproduce those word rankings but using only the image raw pixels as input. We demonstrate that the quality of the automatically obtained custom lexicons is superior to a generic frequency-based baseline.</p>
+<li class="citation">
+		Yash Patel, Lluis Gomez, Marçal Rusiñol, &amp; Dimosthenis Karatzas. (2016). <a target="_blank" href="http://refbase.cvc.uab.es/files/PGR2016.pdf">"Dynamic Lexicon Generation for Natural Scene Images."</a> In Proc. <i>2nd International Workshop on Robust Reading, ECCV Workshops 2016</i>. [<a class="code" target="_blank" href="http://refbase.cvc.uab.es/files/PGR2016.pdf">PDF</a>]
+</span>
+      </div>
+    </div>
+    <br>
+    <div class="wrapper">
+      <div id="one">
+<img src="img/research_02.png" width=320>
+      </div>
+      <div id="two">
+<i><b>Patch-based scene text script identification</b></i>
+<p>This work focuses on the problem of script identification in scene text images. Facing this problem with state of the art CNN classifiers is not straightforward, as they fail to address a key characteristic of scene text instances: their extremely variable aspect ratio. Instead of resizing input images to a fixed aspect ratio as in the typical use of holistic CNN classifiers, we propose here a patch-based classification framework in order to preserve discriminative parts of the image that are characteristic of its class. </p>
+<p>We describe a novel method based on the use of ensembles of conjoined networks to jointly learn discriminative stroke-parts representations and their relative importance in a patch-based classification scheme. Our experiments with this learning procedure demonstrate state-of-the-art results in two public script identification datasets.</p>
+<li class="citation">
+		Lluis Gomez, Anguelos Nicolaou, &amp; Dimosthenis Karatzas. (2016). <a target="_blank" href="https://arxiv.org/abs/1602.07480">"Improving Patch-based Scene Text Script Identification with Ensembles of Conjoined Networks."</a> <i>Journal article under review</i>. [<a class="code" target="_blank" href="https://arxiv.org/pdf/1602.07480v1.pdf">PDF</a> | <a class="code" target="_blank" href="https://github.com/lluisgomez/script_identification">CODE</a>]
+</span>
+<br>
+<li class="citation">
+		Lluis Gomez, &amp; Dimosthenis Karatzas. (2016). <a target="_blank" href="https://arxiv.org/abs/1602.07475">"A Fine Grained Classification Approach to Scene Text Script Identification."</a> In Proc. <i>Document Analysis Systems (DAS), 2016 12th IAPR International Workshop on. IEEE, 2016</i>. [<a class="code" target="_blank" href="https://arxiv.org/pdf/1602.07475v1.pdf">PDF</a> | <a class="code" target="_blank" href="https://github.com/lluisgomez/script_identification">CODE</a>]
+</span>
+      </div>
+    </div>
+    <br>
+    <div class="wrapper">
+      <div id="one">
 <video class="video_cont" width="320" height="240" controls autoplay loop><source src="img/research_01.ogg" type="video/ogg"><source src="img/research_01.mp4" type="video/mp4"></video>
       </div>
       <div id="two">
 <i><b>Exploting Similarity Hierarchies for Multi-script Scene Text Understanding</b></i>
 <p>Optical Character Recognition (OCR) is nowadays considered a solved problem when a clean binarized and well formatted input image, with text in a standard font and language, is provided. On the contrary, the automated localization, extraction and recognition of "scene text" in uncontrolled environments is still an open Computer Vision problem. At the core of the problem lies the extensive variability of scene text in terms of its location, rotation, physical appearance and design.</p>
 <p>Scene text extraction methodologies have been traditionally based in classification of individual regions or patches, using a priori knowledge for a given script or language. Human perception of text, on the other hand, is based on perceptual organisation through which text emerges as a perceptually significant group of atomic objects. Therefore humans are able to detect text even in languages and scripts never seen before. My research revolves around these ideas and poses the text extraction problem as the detection of meaningful groups of regions. I'm working in a text detection method built around a perceptual organisation framework that exploits collaboration of proximity and similarity laws to create text-group hypotheses.</p>
+<li class="citation">
+		Lluis Gomez, &amp; Dimosthenis Karatzas. (2016). <a target="_blank" href="http://arxiv.org/abs/1407.7504">"A Fast Hierarchical Method for Multi-script and Arbitrary Oriented Scene Text Extraction."</a> International Journal on Document Analysis and Recognition</i>. [<a class="code" target="_blank" href="http://arxiv.org/pdf/1407.7504v1.pdf">PDF</a>]
+</span>
+<br>
+<li class="citation">
+		Lluis Gomez, &amp; Dimosthenis Karatzas. (2016). <a target="_blank" href="http://arxiv.org/abs/1604.02619">"TextProposals: a Text-specific Selective Search Algorithm for Word Spotting in the Wild."</a> <i>Journal article under review</i>. [<a class="code" target="_blank" href="http://arxiv.org/pdf/1604.02619v2.pdf">PDF</a> | <a class="code" target="_blank" href="https://github.com/lluisgomez/TextProposals">CODE</a>]
+</span>
+<br>
+<li class="citation">
+		Lluis Gomez, &amp; Dimosthenis Karatzas. (2015).<a target="_blank" href="http://refbase.cvc.uab.es/files/GoK2015.pdf"> "Object Proposals for Text Extraction in the Wild "</a> In Proc. <i>13th International Conference on Document Analysis and Recognition</i>. [<a class="code" target="_blank" href="http://refbase.cvc.uab.es/files/GoK2015.pdf">PDF</a> | <a class="code" target="_blank" href="https://github.com/lluisgomez/TextProposals">CODE</a>]
+</span>
+<br>
+<li class="citation">
+		Lluis Gomez, &amp; Dimosthenis Karatzas. (2014).<a target='_blank' href='http://refbase.cvc.uab.es/files/GoK2014.pdf'> "MSER-based Real-Time Text Detection and Tracking "</a> In Proc. <i>22nd International Conference on Pattern Recognition</i> (pp. 3110&#8211;3115). [<a class="code" target="_blank" href="http://refbase.cvc.uab.es/files/GoK2014.pdf">PDF</a>]
+</span>
+<br>
+<li class="citation">
+		Lluis Gomez, &amp; Dimosthenis Karatzas. (2014). "Scene Text Recognition: No Country for Old Men?" In Proc. <i>1st International Workshop on Robust Reading, ACCV Workshops</i>. [<a class="code" target="_blank" href="https://github.com/ComputerVisionCentre/RRC2015_Baseline_CV3Tess">CODE</a>]
+</span>
+<br>
+<li class="citation">
+		Lluis Gomez, &amp; Dimosthenis Karatzas. (2013).<a target='_blank' href='http://refbase.cvc.uab.es/files/GoK2013.pdf'> "Multi-script Text Extraction from Natural Scenes "</a> In Proc. <i>12th International Conference on Document Analysis and Recognition</i> (pp. 467&#8211;471). [<a class="code" target="_blank" href="http://refbase.cvc.uab.es/files/GoK2013.pdf">PDF</a> | <a class="code" target="_blank" href="https://github.com/lluisgomez/text_extraction">CODE</a>]
+</span>
       </div>
     </div>
   </div><!-- .entry-content -->
@@ -95,7 +163,7 @@
 		
 	</td>
 	<td class="citation" valign="top">
-		Lluis Gomez, Anguelos Nicolaou, &amp; Dimosthenis Karatzas. (2016). <a target="_blank" href="https://arxiv.org/abs/1602.07480">"Boosting Patch-based Scene Text Script Identification with Ensembles of Conjoined Networks."</a> <i>Journal article under review</i>.
+		Lluis Gomez, Anguelos Nicolaou, &amp; Dimosthenis Karatzas. (2016). <a target="_blank" href="https://arxiv.org/abs/1602.07480">"Improving Patch-based Scene Text Script Identification with Ensembles of Conjoined Networks."</a> <i>Journal article under review</i>.
 	</td>
 </tr>
 <tr class="even">
@@ -103,7 +171,7 @@
 		
 	</td>
 	<td class="citation" valign="top">
-		Dena Bazazian, Raul Gomez, Anguelos Nicolaou, Lluis Gomez, Dimosthenis Karatzas, &amp; Andrew D. Bagdanov. (2016). "Improving Text Proposals for Scene Images with Fully Convolutional Networks." <i>To appear in Proc. 1st International Workshop on Deep Learning for Pattern Recognition, ICPR Workshops 2016</i>.
+		Dena Bazazian, Raul Gomez, Anguelos Nicolaou, Lluis Gomez, Dimosthenis Karatzas, &amp; Andrew D. Bagdanov. (2016). <a target="_blank" href="http://refbase.cvc.uab.es/files/BGN2016.pdf">"Improving Text Proposals for Scene Images with Fully Convolutional Networks."</a> In Proc. <i>1st International Workshop on Deep Learning for Pattern Recognition, ICPR Workshops 2016</i>.
 	</td>
 </tr>
 <tr class="even">
@@ -111,7 +179,7 @@
 		
 	</td>
 	<td class="citation" valign="top">
-		Yash Patel, Lluis Gomez, Marçal Rusiñol, &amp; Dimosthenis Karatzas. (2016). "Dynamic Lexicon Generation for Natural Scene Images." <i>To appear in Proc. 2nd International Workshop on Robust Reading, ECCV Workshops 2016</i>.
+		Yash Patel, Lluis Gomez, Marçal Rusiñol, &amp; Dimosthenis Karatzas. (2016). <a target="_blank" href="http://refbase.cvc.uab.es/files/PGR2016.pdf">"Dynamic Lexicon Generation for Natural Scene Images."</a> In Proc. <i>2nd International Workshop on Robust Reading, ECCV Workshops 2016</i>.
 	</td>
 </tr>
 <tr class="even">
@@ -229,8 +297,9 @@
   <a name="teaching">
   <h1 class="entry-title">Teaching</h1>
   <div class="entry-content">
-    <p>2015: <em><strong> 43340 - Pattern Recognition</strong></em>, Lecturer at Universitat Autonoma de Barcelona.</p>
-    <p>2011: <em><strong>Computer Vision</strong></em>, Invited Lecturer at Universidad Politécnica de Valencia.</p>
+    <p>2016/17: <em><strong> M5 - Visual Recognition</strong> (MSc. Computer Vision)</em>, Assistant Professor at Universitat Autonoma de Barcelona.</p>
+    <p>2014/15: <em><strong> 43340 - Pattern Recognition</strong> (MSc. Computer Engineering)</em>, Assistant Professor at Universitat Autonoma de Barcelona.</p>
+    <p>2011/12: <em><strong>Computer Vision</strong> (MSc. Visual Arts)</em>, Invited Lecturer at Universidad Politécnica de Valencia.</p>
   </div><!-- .entry-content -->
 
 

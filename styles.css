@@ -11,6 +11,10 @@ a {
 color: rgb(13, 13, 13);
 }
 
+a.code {
+color: #107be1;
+}
+
 .entry-title
 {
   color: #000000;
