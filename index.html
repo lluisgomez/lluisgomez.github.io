@@ -54,6 +54,25 @@
   <div class="entry-content">
     <div class="wrapper">
       <div id="one">
+<img src="img/research_04.png" width=320> <br> <br> <img src="img/research_04_2.png" width=320>
+      </div>
+      <div id="two">
+<i><b>Deep-embeddings of images into text topic spaces</b></i>
+<p>Topic modeling frameworks, such as the Latent Dirichlet Allocation (LDA) algorithm, are statistical models for discovering the the latent topics that occur in a corpus of textual documents. This way, each individual text document can be represented as a probability distribution over the set of discovered topics, and thus can be projected to a point in a topic space.</p>
+<p>Our research puts forward the idea of embedding images into text topic spaces by mining a large scale collection of multi-modal (text and image) documents. To do so we first learn a topic model on the text corpus of a dataset composed by pairs of correlated texts and images. Then, we train a deep CNN model to predict text representations (topic-probabilities) directly from the image pixels. In other words the learned topic model teaches the CNN to predict the semantic context of images.</p>
+<p>This deep-embedding framework can be used to perform different tasks, such as self-supervised learning of visual features, multi-modal image retrieval, or even to generate contextualized lexicons for scene text recognition.</p>
+<li class="citation">
+		Lluis Gomez, Yash Patel, Marçal Rusiñol, Dimosthenis Karatzas, &amp; C.V. Jawahar. (2017). <a target="_blank" href="https://arxiv.org/pdf/1705.08631.pdf">"Self-supervised learning of visual features through embedding images into text topic spaces."</a> To appear In Proc. <i>International Conference on Computer Vision and Pattern Recognition, CVPR 2017</i>. [<a class="code" target="_blank" href="https://arxiv.org/pdf/1705.08631.pdf">PDF</a>] [<a class="code" target="_blank" href="https://github.com/lluisgomez/TextTopicNet">CODE</a>]
+</span>
+<br>
+<li class="citation">
+		Yash Patel, Lluis Gomez, Marçal Rusiñol, &amp; Dimosthenis Karatzas. (2016). <a target="_blank" href="http://refbase.cvc.uab.es/files/PGR2016.pdf">"Dynamic Lexicon Generation for Natural Scene Images."</a> In Proc. <i>2nd International Workshop on Robust Reading, ECCV Workshops 2016</i>. [<a class="code" target="_blank" href="http://refbase.cvc.uab.es/files/PGR2016.pdf">PDF</a>]
+</span>
+      </div>
+    </div>
+    <br>
+    <div class="wrapper">
+      <div id="one">
 <video class="video_cont" width="320" height="240" controls autoplay loop><source src="img/research_05.ogv" type="video/ogg"><source src="img/research_05.mp4" type="video/mp4"></video>
       </div>
       <div id="two">
@@ -61,20 +80,6 @@
 <p>Text Proposals have emerged as a class-dependent version of object proposals -- efficient approaches to reduce the search space of possible text object locations and extents in an image. Combined with strong word classifiers, text proposals currently yield top state-of-the-art results in end-to-end scene text recognition. In this paper we propose an improvement over the original Text Proposals algorithm (Gomez and Karatzas 2015), combining it with Fully Convolutional Networks to improve the ranking of proposals. Results on the ICDAR RRC and the Coco-text datasets show superior performance over the current state-of-the-art.</p>
 <li class="citation">
 		Dena Bazazian, Raul Gomez, Anguelos Nicolaou, Lluis Gomez, Dimosthenis Karatzas, &amp; Andrew D. Bagdanov. (2016). <a target="_blank" href="http://refbase.cvc.uab.es/files/BGN2016.pdf">"Improving Text Proposals for Scene Images with Fully Convolutional Networks."</a> In Proc. <i>1st International Workshop on Deep Learning for Pattern Recognition, ICPR Workshops 2016</i>. [<a class="code" target="_blank" href="http://refbase.cvc.uab.es/files/BGN2016.pdf">PDF</a>]
-</span>
-      </div>
-    </div>
-    <br>
-    <div class="wrapper">
-      <div id="one">
-<img src="img/research_04.png" width=320>
-      </div>
-      <div id="two">
-<i><b>Dynamic Lexicon Generation for Natural Scene Images</b></i>
-<p>Many scene text understanding methods approach the end-to-end recognition problem from a word-spotting perspective and take huge benefit from using small per-image lexicons. Such customized lexicons are normally assumed as given and their source is rarely discussed.</p>
-<p>In this work we propose a method that generates contextualized lexicons for scene images using only visual information. For this, we exploit the correlation between visual and textual information in a dataset consisting of images and textual content associated with them. Using the LDA topic modeling framework to discover a set of latent topics in such a dataset allows us to re-rank a fixed dictionary in a way that prioritizes the words that are more likely to appear in a given image. Moreover, we train a CNN that is able to reproduce those word rankings but using only the image raw pixels as input. We demonstrate that the quality of the automatically obtained custom lexicons is superior to a generic frequency-based baseline.</p>
-<li class="citation">
-		Yash Patel, Lluis Gomez, Marçal Rusiñol, &amp; Dimosthenis Karatzas. (2016). <a target="_blank" href="http://refbase.cvc.uab.es/files/PGR2016.pdf">"Dynamic Lexicon Generation for Natural Scene Images."</a> In Proc. <i>2nd International Workshop on Robust Reading, ECCV Workshops 2016</i>. [<a class="code" target="_blank" href="http://refbase.cvc.uab.es/files/PGR2016.pdf">PDF</a>]
 </span>
       </div>
     </div>
