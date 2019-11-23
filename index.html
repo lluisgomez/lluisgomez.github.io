@@ -16,7 +16,7 @@
 <img class="site-logo" src="img/lluis_bg.png" />
 <div class="site-whole-title"><span class="site-title">Lluis Gomez i Bigorda |</span><span class="site-description">Postdoctoral researcher @ Computer Vision Center</span></div>
 <div id='space' style="background: #ffffff;"><hr></div>
-<div id='cssmenu' class='align-center'>
+<div id='menu' class="navbar"><div id='cssmenu' class='align-center'>
 <ul>
    <li class='active'><a href='#about'><span>About</span></a></li>
    <li><a href='#research'><span>Research</span></a></li>
@@ -25,7 +25,7 @@
    <li><a href='#teaching'><span>Teaching</span></a></li>
    <li class='last' href='others'><a href='#others'><span>Others</span></a></li>
 </ul>
-</div>
+</div></div>
 </div><!-- #masthead -->
 
 <div id="main" class="site-main">
@@ -547,6 +547,20 @@ Member, International Association of Pattern Recognition, 2013–Present.</p>
 
 </div><!-- #main -->
 </div><!-- #page -->
+
+<script>
+window.onscroll = function() {myFunction()};
+var menu = document.getElementById("menu");
+var sticky = menu.offsetTop;
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    menu.classList.add("sticky");
+  } else {
+    menu.classList.remove("sticky");
+  }
+}
+
+</script>
 
 </body>
 </html>

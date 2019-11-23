@@ -1,5 +1,11 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:700);
 
+#menu.navbar{
+overflow: hidden;
+width:100%;
+z-index:13;
+}
+
 em { 
 }
 
@@ -19,13 +25,11 @@ color: #107be1;
 {
   color: #000000;
   text-decoration: none;
-  display: block;
   padding-top: 59px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
   text-transform: uppercase;
   font-size: 17px;
-  position: relative;
 }
 
 .citation {
@@ -282,6 +286,12 @@ width: auto;
   #cssmenu ul li a:before {
     display: none;
   }
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .wrapper { 
