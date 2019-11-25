@@ -1,5 +1,9 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:700);
 
+body {
+  margin: 0;
+}
+
 #menu.navbar{
 overflow: hidden;
 width:100%;
@@ -171,35 +175,18 @@ width: auto;
 #cssmenu {
   background: #107be1;
   width: auto;
+  z-index: 3;
 }
+
 #cssmenu ul {
+  margin: 0;
+  padding: 0;
   list-style: none;
-  margin: 0;
-  padding: 0;
-  line-height: 1;
-  display: block;
-  zoom: 1;
+  overflow: hidden;
+  background: #107be1;
 }
-#cssmenu ul:after {
-  content: " ";
-  display: block;
-  font-size: 0;
-  height: 0;
-  clear: both;
-  visibility: hidden;
-}
-#cssmenu ul li {
-  display: inline-block;
-  padding: 0;
-  margin: 0;
-}
-#cssmenu.align-right ul li {
-  float: right;
-}
-#cssmenu.align-center ul {
-  text-align: center;
-}
-#cssmenu ul li a {
+
+#cssmenu li a {
   color: #ffffff;
   text-decoration: none;
   display: block;
@@ -214,6 +201,10 @@ width: auto;
   -ms-transition: color .25s;
   -o-transition: color .25s;
   transition: color .25s;
+}
+
+#cssmenu .menu-btn:hover {
+  background-color: #107be1;
 }
 #cssmenu ul li a:hover {
   color: #333333;
@@ -264,27 +255,112 @@ width: auto;
 #cssmenu.align-right li:first-child a:after {
   display: none;
 }
-@media screen and (max-width: 768px) {
-  #cssmenu ul li {
-    float: none;
-    display: block;
+#cssmenu .menu {
+    clear: none;
+    max-height: none;
+}
+
+#cssmenu .logo {
+  display: block;
+  float: left;
+  font-size: 2em;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+/* menu */
+
+#cssmenu .menu {
+  clear: both;
+  max-height: 0;
+  transition: max-height .2s ease-out;
+}
+
+/* menu icon */
+
+#cssmenu .menu-icon {
+  cursor: pointer;
+  display: inline-block;
+  float: right;
+  padding: 28px 20px;
+  position: relative;
+  user-select: none;
+}
+
+#cssmenu .menu-icon .navicon {
+  background: #333;
+  display: block;
+  height: 2px;
+  position: relative;
+  transition: background .2s ease-out;
+  width: 18px;
+}
+
+#cssmenu .menu-icon .navicon:before,
+#cssmenu .menu-icon .navicon:after {
+  background: #333;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all .2s ease-out;
+  width: 100%;
+}
+
+#cssmenu .menu-icon .navicon:before {
+  top: 5px;
+}
+
+#cssmenu .menu-icon .navicon:after {
+  top: -5px;
+}
+
+/* menu btn */
+
+#cssmenu .menu-btn {
+  display: none;
+}
+
+#cssmenu .menu-btn:checked ~ .menu {
+  max-height: 240px;
+}
+
+#cssmenu .menu-btn:checked ~ .menu-icon .navicon {
+  background: transparent;
+}
+
+#cssmenu .menu-btn:checked ~ .menu-icon .navicon:before {
+  transform: rotate(-45deg);
+}
+
+#cssmenu .menu-btn:checked ~ .menu-icon .navicon:after {
+  transform: rotate(45deg);
+}
+
+#cssmenu .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+#cssmenu .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+  top: 0;
+}
+
+/* 48em = 768px */
+
+@media (min-width: 48em) {
+  #cssmenu li {
+    float: left;
   }
-  #cssmenu ul li a {
-    width: 100%;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    border-bottom: 1px solid #fb998c;
+  #cssmenu li a {
+    padding: 15px 25px;
   }
-  #cssmenu ul li.last > a,
-  #cssmenu ul li:last-child > a {
-    border: 0;
+  #cssmenu .menu {
+    clear: none;
+    max-height: none;
+    display: inline-block;
   }
-  #cssmenu ul li a:after {
+  #cssmenu .menu-icon {
     display: none;
   }
-  #cssmenu ul li a:before {
-    display: none;
+  #cssmenu.align-center ul {
+    text-align: center;
   }
 }
 
