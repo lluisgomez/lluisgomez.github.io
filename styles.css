@@ -2,6 +2,7 @@
 
 body {
   margin: 0;
+  color: black;
 }
 
 #menu.navbar{
@@ -70,7 +71,11 @@ text-align: justify;
 }
 
 .video_cont {
-margin-left: 10px;
+max-width: 100%;
+}
+
+.adapt-width {
+max-width: 100%;
 }
 
 .button__about {
