@@ -19,13 +19,13 @@
 <div id='menu' class="navbar"><div id='cssmenu' class='align-center'>
     <input class="menu-btn" type="checkbox" id="menu-btn" />
     <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-<ul class="menu">
-   <li class='active'><a href='#about'><span>About</span></a></li>
-   <li><a href='#research'><span>Research</span></a></li>
-   <li><a href='#publications'><span>Publications</span></a></li>
-   <li><a href='#code'><span>Code</span></a></li>
-   <li><a href='#teaching'><span>Teaching</span></a></li>
-   <li class='last' href='others'><a href='#others'><span>Others</span></a></li>
+<ul class="menu" id="menu">
+   <li class='btn active'><a href='#about'><span>About</span></a></li>
+   <li class='btn'><a href='#research'><span>Research</span></a></li>
+   <li class='btn'><a href='#publications'><span>Publications</span></a></li>
+   <li class='btn'><a href='#code'><span>Code</span></a></li>
+   <li class='btn'><a href='#teaching'><span>Teaching</span></a></li>
+   <li class='btn last' href='others'><a href='#others'><span>Others</span></a></li>
 </ul>
 </div></div>
 </div><!-- #masthead -->
@@ -562,6 +562,16 @@ function myFunction() {
   }
 }
 
+// Add active class to the current button (highlight it)
+var header = document.getElementById("menu");
+var btns = header.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+      btns[i].addEventListener("click", function() {
+      var current = document.getElementsByClassName("active");
+      current[0].className = current[0].className.replace(" active", "");
+      this.className += " active";
+  });
+}
 </script>
 
 </body>
