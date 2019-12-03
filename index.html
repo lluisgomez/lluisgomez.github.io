@@ -1,3 +1,4 @@
+<!DOCTYPE HTML>
 <html>
 <head>
 	<meta charset="UTF-8">
@@ -20,12 +21,12 @@
     <input class="menu-btn" type="checkbox" id="menu-btn" />
     <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
 <ul class="menu" id="menu">
-   <li class='btn active'><a href='#about' onclick="document.getElementById('menu-btn').checked=false;"><span>About</span></a></li>
-   <li class='btn'><a href='#research' onclick="document.getElementById('menu-btn').checked=false;"><span>Research</span></a></li>
-   <li class='btn'><a href='#publications' onclick="document.getElementById('menu-btn').checked=false;"><span>Publications</span></a></li>
-   <li class='btn'><a href='#code' onclick="document.getElementById('menu-btn').checked=false;"><span>Code</span></a></li>
-   <li class='btn'><a href='#teaching' onclick="document.getElementById('menu-btn').checked=false;"><span>Teaching</span></a></li>
-   <li class='btn last' href='others'><a href='#others' onclick="document.getElementById('menu-btn').checked=false;"><span>Others</span></a></li>
+   <li class='btn active' id="btnabout"><a href='#about' onclick="document.getElementById('menu-btn').checked=false;"><span>About</span></a></li>
+   <li class='btn' id="btnresearch"><a href='#research' onclick="document.getElementById('menu-btn').checked=false;"><span>Research</span></a></li>
+   <li class='btn' id="btnpublications"><a href='#publications' onclick="document.getElementById('menu-btn').checked=false;"><span>Publications</span></a></li>
+   <li class='btn' id="btncode"><a href='#code' onclick="document.getElementById('menu-btn').checked=false;"><span>Code</span></a></li>
+   <li class='btn' id="btnteaching"><a href='#teaching' onclick="document.getElementById('menu-btn').checked=false;"><span>Teaching</span></a></li>
+   <li class='btn last' href='others' id="btnothers"><a href='#others' onclick="document.getElementById('menu-btn').checked=false;"><span>Others</span></a></li>
 </ul>
 </div></div>
 </div><!-- #masthead -->
@@ -36,8 +37,8 @@
 <div id="content" class="site-content" role="main">
 
   <a name="about">
-  <h1 class="entry-title">About</h1>
-  <div class="entry-content">
+  <h1 class="entry-title" id="h1about">About</h1>
+  <div class="entry-content" id="entry-about">
     <p>I am a TECNIOspring Research Fellow (H2020 Marie Skłodowska-Curie actions of the European Union) at the <em><a target="_blank" href="http://www.cvc.uab.es">Computer Vision Center</a></em> - <em>Universitat Autonoma de Barcelona</em>. I am a member of the <em><strong><a target="_blank" href="http://dag.cvc.uab.es">Intelligent Reading Systems Group</a></strong></em>, where I work with my colleagues in developing algorithms to make computers read and understand textual information in unconstrained scenarios.</p>
      <p>I have done research stays at the <em><a target="_blank" href="https://www.micc.unifi.it/">Media Integration and Communication Center (MICC)</a></em> - University of Florence, and the <em><a target="_blank" href="http://imlab.jp/index-e.html">Intelligent Media Processing Group</a></em> - Osaka Prefecture University, Japan. I have also collaborated with other prominent research groups in the organization of the <em><a target="_blank" href="http://rrc.cvc.uab.es/">ICDAR Robust Reading Competitions</a></em>.</p>
      <p>In 2019 I co-founded the startup company <a target="_blank" href="http://www.allread.ai">AllRead Machine Learning Technologies</a>.</p>
@@ -55,8 +56,8 @@
 
 
   <a name="research">
-  <h1 class="entry-title">Research</h1>
-  <div class="entry-content">
+  <h1 class="entry-title" id="h1research">Research</h1>
+  <div class="entry-content" id="entry-research">
     <div class="wrapper">
       <div id="one">
 <img src="img/research_06.png" width=320 class="adapt-width"> 
@@ -190,8 +191,8 @@
 
 
   <a name="publications">
-  <h1 class="entry-title">Publications <a href="https://scholar.google.es/citations?user=U5DQ99QAAAAJ" target=_blank><img src=img/scholar-logo.png width=25 style="position: relative; top: 5px;"></a></h1>
-  <div class="entry-content">
+  <h1 class="entry-title" id="h1publications">Publications <a href="https://scholar.google.es/citations?user=U5DQ99QAAAAJ" target=_blank><img src=img/scholar-logo.png width=25 style="position: relative; top: 5px;"></a></h1>
+  <div class="entry-content" id="entry-publications">
 
 <table align="center" border="0" cellpadding="7" cellspacing="0" width="95%">
 <tr>
@@ -481,12 +482,11 @@
 
 
   <a name="code">
-  <h1 class="entry-title">Code <a href="https://github.com/lluisgomez" target=_blank><img src=img/github-logo.png width=25 style="position: relative; top: 5px;"></a></h1>
-  <div class="entry-content">
+  <h1 class="entry-title" id="h1code">Code <a href="https://github.com/lluisgomez" target=_blank><img src=img/github-logo.png width=25 style="position: relative; top: 5px;"></a></h1>
+  <div class="entry-content" id="entry-code">
     <p>If you are looking for code implementations of my research papers, you may be good visiting my <em><strong><a target="_blank" href="https://github.com/lluisgomez">GitHub repositories</a></strong></em>.</p>
     <p>I am an enthusiast of <em><strong><a target="_blank" href="http://gnu.org">Free Software</a></strong></em> in general and an advocate of the <em><strong>GNU/Linux</strong></em> project. I have contributed to several Open Source projects, e.g. the <strong><em><a target="_blank" href="http://puredata.info"> Pure Data</a></em></strong> visual programming language, the <em><strong><a target="_blank" href="http://opencv.org">OpenCV</a></strong></em> Computer Vision library, the <em><strong><a target="_blank" href="http://giss.tv">Giss</a></strong></em> open broadcast platform, and the <em><strong><a target="_blank" href="https://www.dyne.org/software/freej/">FreeJ</a></strong></em> video mixer.</p>
     <p>I have been selected by the OpenCV Foundation for participation in the <em><strong><a target="_blank" href="https://developers.google.com/open-source/soc/?csw=1">Google Summer of Code</a></strong></em> program as a developer (2013 and 2014 editions) and as a mentor (2016).</p>
-  </div><!-- .entry-content -->
 
   <div id="github-card" style="width:100%"
      data-username="lluisgomez"
@@ -494,11 +494,12 @@
      data-sort-by="stars"
      data-header-text="Most starred repositories">
   </div>
+  </div><!-- .entry-content -->
 
 
   <a name="teaching">
-  <h1 class="entry-title">Teaching</h1>
-  <div class="entry-content">
+  <h1 class="entry-title" id="h1teaching">Teaching</h1>
+  <div class="entry-content" id="entry-teaching">
     <p>2018/19: <em><strong> 104389 - Object-Oriented Programming </strong> (B.Sc. Computational Mathematics and Data Analytics)</em>, Assistant Professor at Universitat Autonoma de Barcelona (UAB).</p>
     <p>2018/19: <em><strong> 104338 - Advanced Programming </strong> (B.Sc. Data Engineering)</em>, Assistant Professor at Universitat Autonoma de Barcelona (UAB).</p>
     <p>2018/19: <em><strong> M3 - Machine Learning for Computer Vision </strong> (MSc. Computer Vision)</em>, Invited Lecturer at Universitat Autonoma de Barcelona (UAB).</p>
@@ -514,8 +515,8 @@
 
 
   <a name="others">
-  <h1 class="entry-title">Others</h1>
-  <div class="entry-content">
+  <h1 class="entry-title" id="h1others">Others</h1>
+  <div class="entry-content" id="entry-others">
 
     <p>Reviewer for CVPR, ICCV, ECCV, ICLR, International Journal on Computer Vision, Transactions on Pattern Analysis and Machine Intelligence, Computer Vision and Image Understanding, International Journal on Document Analysis and Recognition, Neourocomputing, Transactions on Image Processing, Packt Publishing.<br>
 Workshop Chair, International Workshop on Camera Based Document Analysis (2019).<br>
@@ -572,6 +573,29 @@ for (var i = 0; i < btns.length; i++) {
       this.className += " active";
   });
 }
+
+// this function runs every time you are scrolling and updates the active menu button accordingly
+$(window).scroll(function() {
+
+    var elements = ["others", "teaching", "code", "publications", "research", "about"]
+    for (i = 0; i < elements.length; i++) {
+        elem_id = "#entry-"+elements[i]
+        btn_id = "#btn"+elements[i]
+        var top_of_element = $(elem_id).offset().top;
+        var bottom_of_element = $(elem_id).offset().top + $(elem_id).outerHeight();
+        var top_of_screen = $(window).scrollTop()  + $(window).height() * 0.25;
+        var bottom_of_screen = $(window).scrollTop() + $(window).height() * 0.75;
+
+        var intersection = Math.min(bottom_of_screen, bottom_of_element) - Math.max(top_of_screen, top_of_element);
+        var intersection_ratio = intersection / (bottom_of_screen - top_of_screen);
+
+        if ((intersection_ratio > 0.5) && (!$(btn_id).hasClass('active'))){
+            $("#btnabout, #btnresearch, #btnpublications, #btncode, #btnteaching, #btnothers").removeClass('active');
+            $(btn_id).addClass('active');
+        } 
+    }
+});
+
 </script>
 
 </body>
