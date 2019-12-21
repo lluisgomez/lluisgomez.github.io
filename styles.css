@@ -68,6 +68,12 @@ width: auto;
 text-align: justify;
 }
 
+.entry-content b{
+font-weight: bold;
+font-size: 19px;
+color:#0162df;
+}
+
 .video_cont {
 max-width: 100%;
 }
