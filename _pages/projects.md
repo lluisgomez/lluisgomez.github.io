@@ -123,4 +123,52 @@ sidebar:
   <a href="https://cvc.uab.cat" target="_blank">cvc.uab.cat</a>
 </details>
 
+<br>
+
+## Past Projects
+
+- **ReadQA** – Reading systems for Visual Question Answering  
+  _Funded by:_ Ministerio de Ciencia e Innovación (PID2020-116298GB-I00) • **€89,419**  
+  _Period:_ Jan 2021 – Dec 2023 • _PIs:_ Lluis Gomez & Dimosthenis Karatzas  
+  Aimed to improve scene-text-based VQA systems using advanced multimodal models.
+
+- **BeARS** – Beyond Automatic Reading Systems  
+  _Funded by:_ AGAUR (Catalan University and Research Agency) • **€97,000**  
+  _Period:_ 2020–2021 • _PIs:_ M. Russiñol & Lluis Gomez  
+  Focused on broadening the capabilities of reading systems beyond OCR.
+
+- **DeepPhotoArchive**  
+  _Funded by:_ TECNIOspring PLUS / H2020 MSCA / ACCIÓ • **€113,339**  
+  _Period:_ 2018–2020 • _PI:_ Lluis Gomez  
+  Applied deep learning to build semantic search engines for photo archives.
+
+- **READS** – Reading the Scene  
+  _Funded by:_ Ministerio de Economía, Industria y Competitividad (TIN2017-89779P) • **€81,554**  
+  _Period:_ 2018–2020 • _PIs:_ D. Karatzas & E. Valveny  
+  Core research on text-in-scene interpretation and representation.
+
+- **Semantic Search in Digital Newspaper Libraries**  
+  _Funded by:_ Fundación BBVA • **€74,526**  
+  _Period:_ 2018–2019 • _PI:_ M. Russiñol • _Role:_ Core Researcher  
+  Developed multimodal search tools for historical digital newspapers.
+
+- **RAW** – Reading in the Wild  
+  _Funded by:_ Ministerio de Economía y Competitividad (TIN2014-52072P) • **€109,021**  
+  _Period:_ 2015–2017 • _PI:_ D. Karatzas • _Role:_ Core Researcher  
+  Addressed robust scene text understanding in unconstrained environments.
+
+- **Text and the City** – Human-Centred Scene Text Understanding  
+  _Funded by:_ Ministerio de Ciencia e Innovación (TIN2011-24631) • **€78,045**  
+  _Period:_ 2012–2014 • _PI:_ D. Karatzas • _Role:_ Core Researcher  
+  Explored user-centric models for text interpretation in urban imagery.
+
+- **Knowledge Extraction from Document Images with Heterogeneous Contents**  
+  _Funded by:_ Ministerio de Ciencia e Innovación (TIN2009-14633-C03-03) • **€195,000**  
+  _Period:_ Jan 2010 – Aug 2013 • _PI:_ J. Lladós • _Role:_ Core Researcher  
+  Investigated document image understanding for structured and unstructured content.
+
+- **HuPerText** – Human Perception Inspired Text Technologies  
+  _Funded by:_ Ministerio de Ciencia e Innovación (TIN2008-04998) • **€49,610**  
+  _Period:_ 2009–2011 • _PI:_ D. Karatzas • _Role:_ Core Researcher  
+  Focused on perceptually motivated scene text modeling and reading.
 
