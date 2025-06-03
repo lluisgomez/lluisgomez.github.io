@@ -24,23 +24,23 @@ sidebar:
   _B.Sc. Interactive Digital Content_  
   Course Instructor, ENTI (School of New Interactive Technologies), Universitat de Barcelona (UB).
 
-- **Synthesis Project I**
-  _B.Sc. Artificial Intelligence_
+- **Synthesis Project I**  
+  _B.Sc. Artificial Intelligence_  
   Project Tutor, UAB.  
 
 ---
 
 ### ⚪️ Previous Teaching
 
-- **Natural Language Processing**
-  _B.Sc. Artificial Intelligence_
+- **Natural Language Processing**  
+  _B.Sc. Artificial Intelligence_  
   Invited Lecturer, UAB.  
 
-- **Neural Networks and Deep Learning**
+- **Neural Networks and Deep Learning**  
   _B.Sc. Computational Mathematics and Data Analytics_  
   Teaching Assistant, UAB.
 
-- **Neural Networks and Deep Learning**
+- **Neural Networks and Deep Learning**  
   _B.Sc. Data Engineering_  
   Teaching Assistant, UAB.
 
