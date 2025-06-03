@@ -78,7 +78,49 @@ sidebar:
 
   <strong>Keywords:</strong> Fair AI, CLIP, Synthetic Data, Bias Mitigation, Diffusion Models, Vision-Language Models, HPC<br><br>
 
-  <strong>More Info:</strong>  
-  <a href="https://pracecalls.eu/" target="_blank">EuroHPC Access Portal</a>  
+  <strong>Code:</strong>  
+  <a href="https://github.com/lluisgomez/FairCLIP" target="_blank">FairCLIP GitHub Repository</a>  
 </details>
+
+<br>
+
+<details>
+  <summary>
+    <strong>COELI-IA</strong> – From Text to Media: A Paradigm Shift in Cultural Heritage Management (2023–2025)<br>
+    <strong>Funding:</strong> INNOTEC R+D Grant (Catalonia) &nbsp; | &nbsp;
+    <strong>Grant ID:</strong> RDECR20/EMT/1791/2021 &nbsp; | &nbsp;
+    <strong>Budget:</strong> €195,530.02<br>
+    <em style="color: #007acc; cursor: pointer;">More info</em>
+  </summary>
+  <br>
+
+  <strong>Coordinated by:</strong> Nubilum SL (SME) <br>
+  <strong>Research Partner:</strong> Centre de Visió per Computador (CVC), Universitat Autònoma de Barcelona<br><br>
+
+  <strong>Objective:</strong><br>
+  COELI-IA aims to revolutionize the management and dissemination of cultural heritage content by leveraging AI techniques. The project explores automatic classification, indexing, and enhanced accessibility for digital archives through multimodal models that can understand and connect text and media data.<br><br>
+
+  <strong>Key Innovations:</strong><br>
+  – Development of AI-driven cultural heritage content engines<br>
+  – New interfaces and recommendation systems based on content relevance<br>
+  – Fine-tuning of AI models for domain-specific archives<br><br>
+
+  <strong>Funding Structure:</strong><br>
+  – Total accepted budget: €195,530.02<br>
+  – CVC share: €84,446.05 (43.19%)<br>
+  – Nubilum SL share: €111,083.98 (56.81%)<br><br>
+
+  <strong>Team:</strong><br>
+  – Dr. Lluís Gómez (CVC Lead)  
+  – Pep Casals Pug (Nubilum Lead)
+  – Marc Folia Campos (Nubilum)  
+  – Francesc Net Barnes (CVC research staff)<br><br>
+
+  <strong>Keywords:</strong> Cultural Heritage, AI for Archives, Multimodal Indexing, Recommendation Systems, Computer Vision, NLP<br><br>
+
+  <strong>More Info:</strong>  
+  <a href="https://coeli.cat/" target="_blank">coeli.cat</a> • 
+  <a href="https://cvc.uab.cat" target="_blank">cvc.uab.cat</a>
+</details>
+
 
