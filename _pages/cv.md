@@ -7,58 +7,80 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
+📄 [Download full CV (PDF)](/files/LluisGomezBigorda_CV2023.pdf)
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+---
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+## Current Position
+**Research Fellow (Ramón y Cajal)**  
+Universitat Autònoma de Barcelona (UAB) & Computer Vision Center  
+March 2022 – Present
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+---
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+## Education
+- Ph.D. in Computer Vision, Cum Laude, Universitat Autònoma de Barcelona, 2016  
+- M.Sc. in Computer Vision and Artificial Intelligence, UAB, 2012  
+- M.Sc. in Computer Science, Universitat Oberta de Catalunya, 2011  
+- B.Sc. in Computer Science, Universitat Oberta de Catalunya, 2010  
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+---
+
+## Employment History
+- **Postdoctoral Researcher**, Computer Vision Center (2016–2022)  
+- **Research and Teaching Assistant**, CVC – UAB (2011–2016)  
+- **C/C++ Senior Developer**, Hangar.org (2005–2011)  
+- **Senior Developer**, Pangea.org (2001–2005)  
+- **Junior Developer**, Drac Telemàtic & Steria Computing (1999–2001)
+
+---
+
+## Research Interests
+Machine Learning, Computer Vision, Fairness & Ethics in AI, Digital Humanities.
+
+---
+
+## Grants and Fellowships
+- Ramón y Cajal Research Fellowship (RYC2020-030777-I)
+- Marie Curie (H2020 TECNIOspring PLUS)
+- NVIDIA GPU Grant, AGAUR Fellowships, Google Summer of Code (2x)
+
+---
+
+## Selected Talks
+- *Deep Archive: Exploring the Past with AI* (Experiment.AI, 2023)
+- *Scene Text Understanding beyond OCR* (BCN.ai, 2020)
+- *Vision and Language: ICDAR Tutorial* (2019)
+
+---
+
+## Projects
+→ [See full list on the Projects page](/projects/)
+
+---
+
+## Publications
+→ [See full list on the Publications page](/publications/)
+
+---
+
+## Teaching
+→ [See detailed Teaching page](/teaching/)
+
+---
+
+## Programming Skills
+**Languages**: C, C++, Python, Java, Objective-C, MATLAB, LATEX, Perl, PHP  
+**Frameworks**: PyTorch, TensorFlow, OpenCV, SciPy, Boost, Qt, GTK+
+
+---
+
+## Languages
+- Catalan, Spanish – Native  
+- English – C1 (TOEFL certified)  
+- Italian – Basic
+
+---
+
+_Last updated: June 2023_
+
