@@ -21,13 +21,21 @@ lines = [
     "permalink: /publications/",
     "sidebar:",
     "  nav: main",
+    "excerpt: \"A complete list of publications, automatically generated from a BibTeX file.\"",
     "---",
     ""
 ]
 
+current_year = None
+
 for entry in entries:
-    authors = entry.get("author", "").replace("{", "").replace("}", "")
     year = entry.get("year", "n.d.")
+    if year != current_year:
+        lines.append(f"--- {year} " + "-" * (70 - len(year)))
+        lines.append("")
+        current_year = year
+
+    authors = entry.get("author", "").replace("{", "").replace("}", "")
     title = entry.get("title", "").replace("{", "").replace("}", "").strip()
     venue = entry.get("booktitle") or entry.get("journal") or ""
     pdf = entry.get("pdf", "")

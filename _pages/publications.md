@@ -4,7 +4,26 @@ title: "Publications"
 permalink: /publications/
 sidebar:
   nav: main
+excerpt: "A complete list of publications, automatically generated from a BibTeX file."
 ---
+
+--- 2025 ------------------------------------------------------------------
+
+**Lluis Gomez** (2025).  
+“Measuring Text-Image Retrieval Fairness with Synthetic Data”  
+*Proceedings of the 48th International ACM SIGIR Conference on Research and Development in Information Retrieval*.
+
+**Lluis Gomez** (2025).  
+“Over the Top-1: Uncertainty-Aware Cross-Modal Retrieval with CLIP”  
+*Proceedings of the 41st Conference on Uncertainty in Artificial Intelligence (UAI)*.
+
+**Sonia Ruiz and Lluis Gomez** (2025).  
+“Charting Pathways: An Intersectional Impact Assessment for Vision and Language Foundation Models”  
+*Women, Technology, and Power - Unmasking (and dealing with) digital disparities in the times of the platforms*.
+
+**Mustapha El Aichouni and Lluis Gomez and Lei Kang** (2025).  
+“Mitigating Distribution Bias in Multimodal Datasets via Clustering-Based Curation”  
+*Iberian Conference on Pattern Recognition and Image Analysis (IbPRIA)*.
 
 **Net, Francesc and Folia, Marc and Casals, Pep and Bagdanov, Andrew D. and Gómez, Lluis** (2025).  
 “EUFCC-340K: A faceted hierarchical dataset for metadata annotation in GLAM collections”  
@@ -16,6 +35,8 @@ sidebar:
 *Computer Vision – ECCV 2024 Workshops*.
  [Link](http://dx.doi.org/10.1007/978-3-031-91572-7_12)
 
+--- 2024 ------------------------------------------------------------------
+
 **Net, Francesc and Hernández, Núria and Molina, Adriá and Gómez, Lluis** (2024).  
 “A Transformer-Based Object-Centric Approach for Date Estimation of Historical Photographs”  
 *Advances in Information Retrieval*.
@@ -25,6 +46,8 @@ sidebar:
 “Machine Unlearning for Document Classification”  
 *Document Analysis and Recognition - ICDAR 2024*.
  [Link](http://dx.doi.org/10.1007/978-3-031-70546-5_6)
+
+--- 2023 ------------------------------------------------------------------
 
 **Nguyen, Khanh and Biten, Ali Furkan and Mafla, Andres and Gomez, Lluis and Karatzas, Dimosthenis** (2023).  
 “Show, Interpret and Tell: Entity-Aware Contextualised Image Captioning in Wikipedia”  
@@ -50,6 +73,8 @@ sidebar:
 *Document Analysis and Recognition - ICDAR 2023*.
  [Link](http://dx.doi.org/10.1007/978-3-031-41734-4_1)
 
+--- 2022 ------------------------------------------------------------------
+
 **Adri\`a Molina and Lluis Gomez and Ramos Terrades, Oriol and Josep Llad\'os** (2022).  
 “A Generic Image Retrieval Method for Date Estimation of Historical Document Collections”  
 **.
@@ -69,6 +94,8 @@ sidebar:
 **Souibgui, Mohamed Ali and Biten, Ali Furkan and Sounak Dey and Alicia Fornes and Yousri Kessentini and Lluis Gomez and Dimosthenis Karatzas and Josep Llados** (2022).  
 “One-shot Compositional Data Generation for Low Resource Handwritten Text Recognition”  
 *Proceedings - 2022 IEEE/CVF Winter Conference on Applications of Computer Vision, WACV 2022*.
+
+--- 2021 ------------------------------------------------------------------
 
 **Llu\'is G\'omez and Biten, Ali Furkan and Tito, Rub\`en P\'erez and Andr\'es Mafla and Mar\c cal Rusi\~nol and Ernest Valveny and Dimosthenis Karatzas** (2021).  
 “Multimodal grid features and cell pointers for scene text visual question answering”  
@@ -96,6 +123,8 @@ sidebar:
 “Learning to Rank Words: Optimizing Ranking Metrics for Word Spotting”  
 **.
 
+--- 2020 ------------------------------------------------------------------
+
 **Sangeeth Reddy and Minesh Mathew and Lluis Gomez and Marcal Rusinol and Dimosthenis Karatzas and Jawahar, C. V.** (2020).  
 “RoadText-1K: Text Detection Recognition Dataset for Driving Videos”  
 *2020 IEEE International Conference on Robotics and Automation, ICRA 2020*.
@@ -115,6 +144,8 @@ sidebar:
 **Klara Janouskova and Jiri Matas and Lluis Gomez and Dimosthenis Karatzas** (2020).  
 “Text recognition - Real world data and where to find them”  
 **.
+
+--- 2019 ------------------------------------------------------------------
 
 **Biten, Ali Furkan and Ruben Tito and Andres Mafla and Lluis Gomez and Marcal Rusinol and Jawahar, C. V. and Ernest Valveny and DImosthenis Karatzas** (2019).  
 “Scene text visual question answering”  
@@ -164,6 +195,8 @@ sidebar:
 *Proceedings of the 2019 on International Conference on Multimedia Retrieval  - {ICMR} {\textquotesingle}19*.
  [Link](https://doi.org/10.1145%2F3323873.3325035)
 
+--- 2018 ------------------------------------------------------------------
+
 **Luis Gomez and Marcal Rusinol and Dimosthenis Karatzas** (2018).  
 “Cutting Sayre\textquotesingles Knot: Reading Scene Text without Segmentation. Application to Utility Meters”  
 *2018 13th {IAPR} International Workshop on Document Analysis Systems ({DAS})*.
@@ -178,6 +211,8 @@ sidebar:
 “Single Shot Scene Text Retrieval”  
 *Computer Vision – ECCV 2018*.
  [Link](http://dx.doi.org/10.1007/978-3-030-01264-9_43)
+
+--- 2017 ------------------------------------------------------------------
 
 **Raul Gomez and Baoguang Shi and Lluis Gomez and Lukas Numann and Andreas Veit and Jiri Matas and Serge Belongie and Dismosthenis Karatzas** (2017).  
 “ICDAR2017 Robust Reading Challenge on COCO-Text”  
@@ -208,6 +243,8 @@ sidebar:
 “Improving patch-based scene text script identification with ensembles of conjoined networks”  
 *Pattern Recognition*.
 
+--- 2016 ------------------------------------------------------------------
+
 **Lluis Gomez** (2016).  
 “Exploiting similarity hierarchies for multi-script scene text understanding”  
 *UAB*.
@@ -230,6 +267,8 @@ sidebar:
 “Dynamic lexicon generation for natural scene images”  
 *Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)*.
 
+--- 2015 ------------------------------------------------------------------
+
 **Suman K. Ghosh and Lluis Gomez and Dimosthenis Karatzas and Ernest Valveny** (2015).  
 “Efficient indexing for Query By String text retrieval”  
 *2015 13th International Conference on Document Analysis and Recognition ({ICDAR})*.
@@ -249,6 +288,8 @@ sidebar:
 *Computer Vision - {ACCV} 2014 Workshops*.
  [Link](https://doi.org/10.1007%2F978-3-319-16631-5_12)
 
+--- 2014 ------------------------------------------------------------------
+
 **Karatzas, D. and Robles, S. and Gomez, L.** (2014).  
 “An on-line platform for ground truthing and performance evaluation of text extraction systems”  
 *Proceedings - 11th IAPR International Workshop on Document Analysis Systems, DAS 2014*.
@@ -256,6 +297,8 @@ sidebar:
 **Gomez, L. and Karatzas, D.** (2014).  
 “MSER-based real-time text detection and tracking”  
 *Proceedings - International Conference on Pattern Recognition*.
+
+--- 2013 ------------------------------------------------------------------
 
 **Dimosthenis Karatzas and Faisal Shafait and Seiichi Uchida and Masakazu Iwamura and Lluis Gomez i Bigorda and Sergi Robles Mestre and Joan Mas and David Fernandez Mota and Jon Almazan Almazan and Lluis Pere de las Heras** (2013).  
 “ICDAR 2013 Robust Reading Competition”  
@@ -266,6 +309,8 @@ sidebar:
 “Multi-script Text Extraction from Natural Scenes”  
 *2013 12th International Conference on Document Analysis and Recognition*.
  [Link](https://doi.org/10.1109%2Ficdar.2013.100)
+
+--- 2012 ------------------------------------------------------------------
 
 **Lluis Gomez** (2012).  
 “Web sem\'antica y gesti\'on de archivos: una introducci\'on”  
