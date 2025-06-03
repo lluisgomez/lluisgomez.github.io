@@ -22,9 +22,9 @@
     @include prefix(0.5 of 12);
     @include suffix(2 of 12);
   }
+   padding-left: 3rem;
 
   .page__inner-wrap {
-     margin-left: 50px;
     @include full();
      
     .page__content,
