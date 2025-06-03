@@ -1,7 +1,10 @@
 ---
-layout: page
 title: About
 permalink: /
+author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
 ---
 
 I’m a **Research Fellow (Ramón y Cajal RYC2020-030777-I)** at the [Universitat Autonoma de Barcelona](https://www.uab.cat/) and a member of the [Computer Vision Center (CVC)](https://www.cvc.uab.es/).
