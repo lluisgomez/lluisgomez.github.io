@@ -1,7 +1,9 @@
 ---
-layout: page
+layout: single
 title: "Publications"
 permalink: /publications/
+sidebar:
+  nav: main
 ---
 
 **Net, Francesc and Folia, Marc and Casals, Pep and Bagdanov, Andrew D. and Gómez, Lluis** (2025).  
@@ -268,7 +270,3 @@ permalink: /publications/
 **Lluis Gomez** (2012).  
 “Web sem\'antica y gesti\'on de archivos: una introducci\'on”  
 *Gesti{\'o}n de la innovaci{\'o}n y nuevas estrategias de investigaci{\'o}n y difusi{\'o}n del fondo documental art{\'i}stico*.
-
-**J. Almirall and I. Bol\'ibar and M. Serra-Prat and J. Roig and I. Hospital and E. Carandell and M. Agust\'i and P. Ayuso and A. Estela and A. Torres and De Salas, J. M. and J. Costa and M. Tristany and Grau, M. J. and S. Sancho and E. Miguel and M. Fradera and I. Ochoa and Castany, M. J. and A. Quilez and V. Marina and P. Subias and B. Jimeno and A. Bradnovich and M. Rodriguez and E. Ramon and A. Gardella and C. Gin\'es and X. Mestres and A. Armada and J. Mallafr\'e and M. Roger and Gros, M. T. and N. Les and J. Joanola and J. Dom\'enech and M. Bund\'o and M. Trilla and J. Massons and J. Montero and Lopez, M. A. and E. Martin and J. Pujol and P. Serra and M. Catal\'a and L. Quintana and G\'omez, L. L. and A. Font** (2008).  
-“New evidence of risk factors for community-acquired pneumonia: A population-based study”  
-*European Respiratory Journal*.
