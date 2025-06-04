@@ -14,3 +14,26 @@ Currently, my research explores how to detect and mitigate algorithmic bias in m
 Earlier in my career, I was a TECNIOspring Research Fellow (2018–2020), a program co-funded by the European Commission under the Marie Skłodowska-Curie Actions. I've held research stays at the [Media Integration and Communication Center (MICC)](https://www.micc.unifi.it/) in Florence (Italy) and the [Intelligent Media Processing Group](http://imlab.jp/index-e.html) in Osaka (Japan). I've been also an active contributor to the [ICDAR Robust Reading Competitions](http://rrc.cvc.uab.es/), a community benchmarking initiative for text understanding in images.
 
 In parallel to my academic path, I have a strong interest in the social implications of AI and in making deep learning models more fair and interpretable.
+
+-------------
+
+### 📌 NEWS
+
+<table>
+  <tr>
+    <td>03/06/2025</td>
+    <td>Book chapter published in "<em>Women, Technology, and Power</em>" 🎉</td>
+  </tr>
+  <tr>
+    <td>01/06/2025</td>
+    <td>EU-CERV funded project <strong>InterVisions</strong> officially started 🚀 – Bias auditing for multimodal foundation models</td>
+  </tr>
+  <tr>
+    <td>07/05/2025</td>
+    <td>Paper accepted at <em>UAI 2025</em> 🎉 – "Over the Top-1: Uncertainty-Aware Cross-Modal Retrieval with CLIP"</td>
+  </tr>
+  <tr>
+    <td>04/04/2025</td>
+    <td>Paper accepted at <em>SIGIR 2025</em> 🎉 – "Measuring Text-Image Retrieval Fairness with Synthetic Data"</td>
+  </tr>
+</table>
