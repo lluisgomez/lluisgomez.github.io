@@ -10,7 +10,7 @@ permalink: /team/
 _PhD student_
 
 **Cai Selvas Sala**, **Mustapha El Aichouni**, **Amelia Gómez Grabowska**  
-_Undergraduate students_
+_Undergraduate interns_
 
 **Khaoula Benali** (prospective)  
 _Visiting PhD student_ FSM, University Monastir (Tunisia).
