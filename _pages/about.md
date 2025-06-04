@@ -19,7 +19,7 @@ In parallel to my academic path, I have a strong interest in the social implicat
 
 ### 📌 NEWS
 
-<table border="0" style="font-size: 1.1em;">
+<table  style="border-collapse: collapse; border: none; font-size: 1.03em;">
   <tr>
     <td>03/06/2025</td>
     <td>Book chapter published in "<em>Women, Technology, and Power</em>" 🎉</td>
