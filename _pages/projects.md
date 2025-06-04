@@ -2,8 +2,6 @@
 layout: single
 title: "Projects"
 permalink: /projects/
-sidebar:
-  nav: main
 ---
 
 ## Current Projects
