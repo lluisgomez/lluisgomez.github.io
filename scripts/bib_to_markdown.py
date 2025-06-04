@@ -28,13 +28,12 @@ current_year = None
 for entry in entries:
     year = entry.get("year", "n.d.")
     if year != current_year:
-        lines.append(f"""
-        <div style="display: flex; align-items: center; margin: 2em 0;">
-          <hr style="flex: 1; border: none; border-top: 1px solid #888;">
-          <span style="padding: 0 1em; white-space: nowrap; font-weight: bold;">{year}</span>
-          <hr style="flex: 1; border: none; border-top: 1px solid #888;">
-        </div>
-        """)
+        lines.append(f"""<div style="display: flex; align-items: center; margin: 2em 0;">
+<hr style="flex: 1; border: none; border-top: 1px solid #888;">
+<span style="padding: 0 1em; white-space: nowrap; font-weight: bold;">{year}</span>
+<hr style="flex: 1; border: none; border-top: 1px solid #888;">
+</div>
+""")
         lines.append("")
         current_year = year
 
