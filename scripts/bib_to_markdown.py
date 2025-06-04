@@ -19,9 +19,6 @@ lines = [
     "layout: single",
     "title: \"Publications\"",
     "permalink: /publications/",
-    "sidebar:",
-    "  nav: main",
-    "excerpt: \"A complete list of publications, automatically generated from a BibTeX file.\"",
     "---",
     ""
 ]

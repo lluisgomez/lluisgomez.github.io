@@ -2,9 +2,6 @@
 layout: single
 title: "Publications"
 permalink: /publications/
-sidebar:
-  nav: main
-excerpt: "A complete list of publications, automatically generated from a BibTeX file."
 ---
 
 --- 2025 ------------------------------------------------------------------
@@ -20,6 +17,7 @@ excerpt: "A complete list of publications, automatically generated from a BibTeX
 **Sonia Ruiz and Lluis Gomez** (2025).  
 “Charting Pathways: An Intersectional Impact Assessment for Vision and Language Foundation Models”  
 *Women, Technology, and Power - Unmasking (and dealing with) digital disparities in the times of the platforms*.
+ [Link](https://editorial.tirant.com/es/ebook/women-technology-and-power---unmasking-and-dealing-with-digital-disparities-in-the-times-of-the-platforms-miren-gutierrez-9788410811102)
 
 **Mustapha El Aichouni and Lluis Gomez and Lei Kang** (2025).  
 “Mitigating Distribution Bias in Multimodal Datasets via Clustering-Based Curation”  
@@ -33,6 +31,7 @@ excerpt: "A complete list of publications, automatically generated from a BibTeX
 **Kang, Lei and Fu, Xuanshuo and Gomez, Lluis and Fornés, Alicia and Valveny, Ernest and Karatzas, Dimosthenis** (2025).  
 “Preserving Privacy Without Compromising Accuracy: Machine Unlearning for Handwritten Text Recognition”  
 *arXiv preprint arXiv:2504.08616*.
+ [Link](https://arxiv.org/pdf/2504.08616)
 
 --- 2024 ------------------------------------------------------------------
 
@@ -43,12 +42,12 @@ excerpt: "A complete list of publications, automatically generated from a BibTeX
 
 **Net, Francesc and Hernández, Núria and Molina, Adriá and Gómez, Lluis** (2024).  
 “A Transformer-Based Object-Centric Approach for Date Estimation of Historical Photographs”  
-*Advances in Information Retrieval*.
+*European Conference on Information Retrieval*.
  [Link](http://dx.doi.org/10.1007/978-3-031-56063-7_9)
 
 **Kang, Lei and Souibgui, Mohamed Ali and Yang, Fei and Gomez, Lluis and Valveny, Ernest and Karatzas, Dimosthenis** (2024).  
 “Machine Unlearning for Document Classification”  
-*Document Analysis and Recognition - ICDAR 2024*.
+*Int. Conference on Document Analysis and Recognition - ICDAR 2024*.
  [Link](http://dx.doi.org/10.1007/978-3-031-70546-5_6)
 
 **Kang, Lei and Yang, Fei and Wang, Kai and Souibgui, Mohamed Ali and Gomez, Lluis and Fornés, Alicia and Valveny, Ernest and Karatzas, Dimosthenis** (2024).  
@@ -69,49 +68,56 @@ excerpt: "A complete list of publications, automatically generated from a BibTeX
 
 **Vivoli, Emanuele and Biten, Ali Furkan and Mafla, Andres and Karatzas, Dimosthenis and Gomez, Lluis** (2023).  
 “MUST-VQA: MUltilingual Scene-Text VQA”  
-*Computer Vision – ECCV 2022 Workshops*.
+*European Conference on Computer Vision – ECCV 2022 Workshops*.
  [Link](http://dx.doi.org/10.1007/978-3-031-25069-9_23)
 
 **Biten, Ali Furkan and Rubèn Tito and Lluis Gomez and Ernest Valveny and Dimosthenis Karatzas** (2023).  
 “OCR-IDL: OCR Annotations for Industry Document Library Dataset”  
-*Computer Vision – ECCV 2022 Workshops, Proceedings*.
+*European Conference on Computer Vision – ECCV 2022 Workshops, Proceedings*.
 
 **Net, Francesc and Folia, Marc and Casals, Pep and Gómez, Lluis** (2023).  
 “Transductive Learning for Near-Duplicate Image Detection in Scanned Photo Collections”  
-*Document Analysis and Recognition - ICDAR 2023*.
+*Int. Conference on Document Analysis and Recognition - ICDAR 2023*.
  [Link](http://dx.doi.org/10.1007/978-3-031-41734-4_1)
 
 --- 2022 ------------------------------------------------------------------
 
-**Adri\`a Molina and Lluis Gomez and Ramos Terrades, Oriol and Josep Lladós** (2022).  
+**Adrià Molina and Lluis Gomez and Ramos Terrades, Oriol and Josep Lladós** (2022).  
 “A Generic Image Retrieval Method for Date Estimation of Historical Document Collections”  
-**.
+*Document Analysis Systems - 15th IAPR International Workshop, DAS 2022, Proceedings*.
+ [Link](https://arxiv.org/pdf/2204.04028)
 
 **Brugués i Pujolràs, Josep and Gómez i Bigordà, Lluis and Dimosthenis Karatzas** (2022).  
 “A Multilingual Approach to Scene Text Visual Question Answering”  
 *Document Analysis Systems - 15th IAPR International Workshop, DAS 2022, Proceedings*.
+ [Link](https://link.springer.com/chapter/10.1007/978-3-031-06555-2_5)
 
 **Biten, Ali Furkan and Andres Mafla and Lluis Gomez and Dimosthenis Karatzas** (2022).  
 “Is An Image Worth Five Sentences? A New Look into Semantics for Image-Text Matching”  
 *Proceedings - 2022 IEEE/CVF Winter Conference on Applications of Computer Vision, WACV 2022*.
+ [Link](https://openaccess.thecvf.com/content/WACV2022/papers/Biten_Is_an_Image_Worth_Five_Sentences_A_New_Look_Into_WACV_2022_paper.pdf)
 
 **Biten, Ali Furkan and Lluis Gomez and Dimosthenis Karatzas** (2022).  
 “Let there be a clock on the beach: Reducing Object Hallucination in Image Captioning”  
-**.
+*Proceedings - 2022 IEEE/CVF Winter Conference on Applications of Computer Vision, WACV 2022*.
+ [Link](https://openaccess.thecvf.com/content/WACV2022/papers/Biten_Let_There_Be_a_Clock_on_the_Beach_Reducing_Object_WACV_2022_paper.pdf)
 
 **Souibgui, Mohamed Ali and Biten, Ali Furkan and Sounak Dey and Alicia Fornes and Yousri Kessentini and Lluis Gomez and Dimosthenis Karatzas and Josep Llados** (2022).  
 “One-shot Compositional Data Generation for Low Resource Handwritten Text Recognition”  
 *Proceedings - 2022 IEEE/CVF Winter Conference on Applications of Computer Vision, WACV 2022*.
+ [Link](https://openaccess.thecvf.com/content/WACV2022/papers/Souibgui_One-Shot_Compositional_Data_Generation_for_Low_Resource_Handwritten_Text_Recognition_WACV_2022_paper.pdf)
 
 --- 2021 ------------------------------------------------------------------
 
 **Lluís Gómez and Biten, Ali Furkan and Tito, Rubèn Pérez and Andrés Mafla and Mar\c cal Rusi\~nol and Ernest Valveny and Dimosthenis Karatzas** (2021).  
 “Multimodal grid features and cell pointers for scene text visual question answering”  
 *Pattern Recognition Letters*.
+ [Link](https://arxiv.org/pdf/2006.00923)
 
 **Minesh Mathew and Lluis Gomez and Dimosthenis Karatzas and Jawahar, C. V.** (2021).  
 “Asking questions on handwritten document collections”  
 *International journal on document analysis and recognition*.
+ [Link](https://arxiv.org/pdf/2110.00711)
 
 **Andrés Mafla and Rubèn Tito and Sounak Dey and Lluis Gomez and Marçal Rusiñol and Ernest Valveny and Dimosthenis Karatzas** (2021).  
 “Real-time Lexicon-free Scene Text Retrieval”  
@@ -120,16 +126,17 @@ excerpt: "A complete list of publications, automatically generated from a BibTeX
 
 **Andres Mafla and Rezende, Rafael S. and Lluis Gomez and Diane Larlus and Dimosthenis Karatzas** (2021).  
 “StacMR: Scene-text aware cross-modal retrieval”  
-**.
+*IEEE/CVF Winter Conference on Applications of Computer Vision*.
+ [Link](http://openaccess.thecvf.com/content/WACV2021/papers/Mafla_StacMR_Scene-Text_Aware_Cross-Modal_Retrieval_WACV_2021_paper.pdf)
 
 **Molina, Adrià and Riba, Pau and Gomez, Lluis and Ramos-Terrades, Oriol and Lladós, Josep** (2021).  
 “Date Estimation in the Wild of Scanned Historical Photos: An Image Retrieval Approach”  
 *Document Analysis and Recognition – ICDAR 2021*.
  [Link](http://dx.doi.org/10.1007/978-3-030-86331-9_20)
 
-**Pau Riba and Adri\`a Molina and Lluis Gomez and Oriol Ramos-Terrades and Josep Lladós** (2021).  
+**Pau Riba and Adrià Molina and Lluis Gomez and Oriol Ramos-Terrades and Josep Lladós** (2021).  
 “Learning to Rank Words: Optimizing Ranking Metrics for Word Spotting”  
-**.
+*Int. Conference on Document Analysis and Recognition – ICDAR 2021*.
 
 --- 2020 ------------------------------------------------------------------
 
@@ -151,7 +158,7 @@ excerpt: "A complete list of publications, automatically generated from a BibTeX
 
 **Klara Janouskova and Jiri Matas and Lluis Gomez and Dimosthenis Karatzas** (2020).  
 “Text recognition - Real world data and where to find them”  
-**.
+*International Conference on Pattern Recognition (ICPR)*.
 
 --- 2019 ------------------------------------------------------------------
 
@@ -255,7 +262,7 @@ excerpt: "A complete list of publications, automatically generated from a BibTeX
 
 **Lluis Gomez** (2016).  
 “Exploiting similarity hierarchies for multi-script scene text understanding”  
-*UAB*.
+*PhD Thesis, UAB*.
 
 **Lluis Gomez and Dimosthenis Karatzas** (2016).  
 “A Fine-Grained Approach to Scene Text Script Identification”  
