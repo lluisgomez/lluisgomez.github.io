@@ -6,8 +6,6 @@ permalink: /projects/
 
 ## Current Projects
 
-<br>
-
 <details>
   <summary>
     <strong>InterVisions</strong> – Participatory AI for Intersectional Bias Auditing (2025–2026)  
@@ -40,7 +38,6 @@ permalink: /projects/
 
 </details>
 
-<br>
 
 <details>
   <summary>
@@ -80,7 +77,6 @@ permalink: /projects/
   <a href="https://github.com/lluisgomez/FairCLIP" target="_blank">FairCLIP GitHub Repository</a>  
 </details>
 
-<br>
 
 <details>
   <summary>
