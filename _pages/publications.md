@@ -4,13 +4,12 @@ title: "Publications"
 permalink: /publications/
 ---
 
+<div style="display: flex; align-items: center; margin: 2em 0;">
+<hr style="flex: 1; border: none; border-top: 1px solid #888;">
+<span style="padding: 0 1em; white-space: nowrap; font-weight: bold;">2025</span>
+<hr style="flex: 1; border: none; border-top: 1px solid #888;">
+</div>
 
-        <div style="display: flex; align-items: center; margin: 2em 0;">
-          <hr style="flex: 1; border: none; border-top: 1px solid #888;">
-          <span style="padding: 0 1em; white-space: nowrap; font-weight: bold;">2025</span>
-          <hr style="flex: 1; border: none; border-top: 1px solid #888;">
-        </div>
-        
 
 **Lluis Gomez** (2025).  
 “Measuring Text-Image Retrieval Fairness with Synthetic Data”  
@@ -39,13 +38,12 @@ permalink: /publications/
 *arXiv preprint arXiv:2504.08616*.
  [Link](https://arxiv.org/pdf/2504.08616)
 
+<div style="display: flex; align-items: center; margin: 2em 0;">
+<hr style="flex: 1; border: none; border-top: 1px solid #888;">
+<span style="padding: 0 1em; white-space: nowrap; font-weight: bold;">2024</span>
+<hr style="flex: 1; border: none; border-top: 1px solid #888;">
+</div>
 
-        <div style="display: flex; align-items: center; margin: 2em 0;">
-          <hr style="flex: 1; border: none; border-top: 1px solid #888;">
-          <span style="padding: 0 1em; white-space: nowrap; font-weight: bold;">2024</span>
-          <hr style="flex: 1; border: none; border-top: 1px solid #888;">
-        </div>
-        
 
 **Net, Francesc and Gomez, Lluis** (2024).  
 “EUFCC-CIR: A Composed Image Retrieval Dataset for GLAM Collections”  
@@ -66,13 +64,12 @@ permalink: /publications/
 “GRIF-DM: Generation of Rich Impression Fonts using Diffusion Models”  
 *European Conference on Artificial Intelligence 2024*.
 
+<div style="display: flex; align-items: center; margin: 2em 0;">
+<hr style="flex: 1; border: none; border-top: 1px solid #888;">
+<span style="padding: 0 1em; white-space: nowrap; font-weight: bold;">2023</span>
+<hr style="flex: 1; border: none; border-top: 1px solid #888;">
+</div>
 
-        <div style="display: flex; align-items: center; margin: 2em 0;">
-          <hr style="flex: 1; border: none; border-top: 1px solid #888;">
-          <span style="padding: 0 1em; white-space: nowrap; font-weight: bold;">2023</span>
-          <hr style="flex: 1; border: none; border-top: 1px solid #888;">
-        </div>
-        
 
 **Nguyen, Khanh and Biten, Ali Furkan and Mafla, Andres and Gomez, Lluis and Karatzas, Dimosthenis** (2023).  
 “Show, Interpret and Tell: Entity-Aware Contextualised Image Captioning in Wikipedia”  
@@ -98,13 +95,12 @@ permalink: /publications/
 *Int. Conference on Document Analysis and Recognition - ICDAR 2023*.
  [Link](http://dx.doi.org/10.1007/978-3-031-41734-4_1)
 
+<div style="display: flex; align-items: center; margin: 2em 0;">
+<hr style="flex: 1; border: none; border-top: 1px solid #888;">
+<span style="padding: 0 1em; white-space: nowrap; font-weight: bold;">2022</span>
+<hr style="flex: 1; border: none; border-top: 1px solid #888;">
+</div>
 
-        <div style="display: flex; align-items: center; margin: 2em 0;">
-          <hr style="flex: 1; border: none; border-top: 1px solid #888;">
-          <span style="padding: 0 1em; white-space: nowrap; font-weight: bold;">2022</span>
-          <hr style="flex: 1; border: none; border-top: 1px solid #888;">
-        </div>
-        
 
 **Adrià Molina and Lluis Gomez and Ramos Terrades, Oriol and Josep Lladós** (2022).  
 “A Generic Image Retrieval Method for Date Estimation of Historical Document Collections”  
@@ -131,13 +127,12 @@ permalink: /publications/
 *Proceedings - 2022 IEEE/CVF Winter Conference on Applications of Computer Vision, WACV 2022*.
  [Link](https://openaccess.thecvf.com/content/WACV2022/papers/Souibgui_One-Shot_Compositional_Data_Generation_for_Low_Resource_Handwritten_Text_Recognition_WACV_2022_paper.pdf)
 
+<div style="display: flex; align-items: center; margin: 2em 0;">
+<hr style="flex: 1; border: none; border-top: 1px solid #888;">
+<span style="padding: 0 1em; white-space: nowrap; font-weight: bold;">2021</span>
+<hr style="flex: 1; border: none; border-top: 1px solid #888;">
+</div>
 
-        <div style="display: flex; align-items: center; margin: 2em 0;">
-          <hr style="flex: 1; border: none; border-top: 1px solid #888;">
-          <span style="padding: 0 1em; white-space: nowrap; font-weight: bold;">2021</span>
-          <hr style="flex: 1; border: none; border-top: 1px solid #888;">
-        </div>
-        
 
 **Lluís Gómez and Biten, Ali Furkan and Tito, Rubèn Pérez and Andrés Mafla and Mar\c cal Rusi\~nol and Ernest Valveny and Dimosthenis Karatzas** (2021).  
 “Multimodal grid features and cell pointers for scene text visual question answering”  
@@ -168,13 +163,12 @@ permalink: /publications/
 “Learning to Rank Words: Optimizing Ranking Metrics for Word Spotting”  
 *Int. Conference on Document Analysis and Recognition – ICDAR 2021*.
 
+<div style="display: flex; align-items: center; margin: 2em 0;">
+<hr style="flex: 1; border: none; border-top: 1px solid #888;">
+<span style="padding: 0 1em; white-space: nowrap; font-weight: bold;">2020</span>
+<hr style="flex: 1; border: none; border-top: 1px solid #888;">
+</div>
 
-        <div style="display: flex; align-items: center; margin: 2em 0;">
-          <hr style="flex: 1; border: none; border-top: 1px solid #888;">
-          <span style="padding: 0 1em; white-space: nowrap; font-weight: bold;">2020</span>
-          <hr style="flex: 1; border: none; border-top: 1px solid #888;">
-        </div>
-        
 
 **Sangeeth Reddy and Minesh Mathew and Lluis Gomez and Marcal Rusinol and Dimosthenis Karatzas and Jawahar, C. V.** (2020).  
 “RoadText-1K: Text Detection Recognition Dataset for Driving Videos”  
@@ -196,13 +190,12 @@ permalink: /publications/
 “Text recognition - Real world data and where to find them”  
 *International Conference on Pattern Recognition (ICPR)*.
 
+<div style="display: flex; align-items: center; margin: 2em 0;">
+<hr style="flex: 1; border: none; border-top: 1px solid #888;">
+<span style="padding: 0 1em; white-space: nowrap; font-weight: bold;">2019</span>
+<hr style="flex: 1; border: none; border-top: 1px solid #888;">
+</div>
 
-        <div style="display: flex; align-items: center; margin: 2em 0;">
-          <hr style="flex: 1; border: none; border-top: 1px solid #888;">
-          <span style="padding: 0 1em; white-space: nowrap; font-weight: bold;">2019</span>
-          <hr style="flex: 1; border: none; border-top: 1px solid #888;">
-        </div>
-        
 
 **Biten, Ali Furkan and Ruben Tito and Andres Mafla and Lluis Gomez and Marcal Rusinol and Jawahar, C. V. and Ernest Valveny and DImosthenis Karatzas** (2019).  
 “Scene text visual question answering”  
@@ -252,13 +245,12 @@ permalink: /publications/
 *Proceedings of the 2019 on International Conference on Multimedia Retrieval  - {ICMR} {\textquotesingle}19*.
  [Link](https://doi.org/10.1145%2F3323873.3325035)
 
+<div style="display: flex; align-items: center; margin: 2em 0;">
+<hr style="flex: 1; border: none; border-top: 1px solid #888;">
+<span style="padding: 0 1em; white-space: nowrap; font-weight: bold;">2018</span>
+<hr style="flex: 1; border: none; border-top: 1px solid #888;">
+</div>
 
-        <div style="display: flex; align-items: center; margin: 2em 0;">
-          <hr style="flex: 1; border: none; border-top: 1px solid #888;">
-          <span style="padding: 0 1em; white-space: nowrap; font-weight: bold;">2018</span>
-          <hr style="flex: 1; border: none; border-top: 1px solid #888;">
-        </div>
-        
 
 **Luis Gomez and Marcal Rusinol and Dimosthenis Karatzas** (2018).  
 “Cutting Sayre\textquotesingles Knot: Reading Scene Text without Segmentation. Application to Utility Meters”  
@@ -275,13 +267,12 @@ permalink: /publications/
 *Computer Vision – ECCV 2018*.
  [Link](http://dx.doi.org/10.1007/978-3-030-01264-9_43)
 
+<div style="display: flex; align-items: center; margin: 2em 0;">
+<hr style="flex: 1; border: none; border-top: 1px solid #888;">
+<span style="padding: 0 1em; white-space: nowrap; font-weight: bold;">2017</span>
+<hr style="flex: 1; border: none; border-top: 1px solid #888;">
+</div>
 
-        <div style="display: flex; align-items: center; margin: 2em 0;">
-          <hr style="flex: 1; border: none; border-top: 1px solid #888;">
-          <span style="padding: 0 1em; white-space: nowrap; font-weight: bold;">2017</span>
-          <hr style="flex: 1; border: none; border-top: 1px solid #888;">
-        </div>
-        
 
 **Raul Gomez and Baoguang Shi and Lluis Gomez and Lukas Numann and Andreas Veit and Jiri Matas and Serge Belongie and Dismosthenis Karatzas** (2017).  
 “ICDAR2017 Robust Reading Challenge on COCO-Text”  
@@ -312,13 +303,12 @@ permalink: /publications/
 “Improving patch-based scene text script identification with ensembles of conjoined networks”  
 *Pattern Recognition*.
 
+<div style="display: flex; align-items: center; margin: 2em 0;">
+<hr style="flex: 1; border: none; border-top: 1px solid #888;">
+<span style="padding: 0 1em; white-space: nowrap; font-weight: bold;">2016</span>
+<hr style="flex: 1; border: none; border-top: 1px solid #888;">
+</div>
 
-        <div style="display: flex; align-items: center; margin: 2em 0;">
-          <hr style="flex: 1; border: none; border-top: 1px solid #888;">
-          <span style="padding: 0 1em; white-space: nowrap; font-weight: bold;">2016</span>
-          <hr style="flex: 1; border: none; border-top: 1px solid #888;">
-        </div>
-        
 
 **Lluis Gomez** (2016).  
 “Exploiting similarity hierarchies for multi-script scene text understanding”  
@@ -342,13 +332,12 @@ permalink: /publications/
 “Dynamic lexicon generation for natural scene images”  
 *Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)*.
 
+<div style="display: flex; align-items: center; margin: 2em 0;">
+<hr style="flex: 1; border: none; border-top: 1px solid #888;">
+<span style="padding: 0 1em; white-space: nowrap; font-weight: bold;">2015</span>
+<hr style="flex: 1; border: none; border-top: 1px solid #888;">
+</div>
 
-        <div style="display: flex; align-items: center; margin: 2em 0;">
-          <hr style="flex: 1; border: none; border-top: 1px solid #888;">
-          <span style="padding: 0 1em; white-space: nowrap; font-weight: bold;">2015</span>
-          <hr style="flex: 1; border: none; border-top: 1px solid #888;">
-        </div>
-        
 
 **Suman K. Ghosh and Lluis Gomez and Dimosthenis Karatzas and Ernest Valveny** (2015).  
 “Efficient indexing for Query By String text retrieval”  
@@ -369,13 +358,12 @@ permalink: /publications/
 *Computer Vision - {ACCV} 2014 Workshops*.
  [Link](https://doi.org/10.1007%2F978-3-319-16631-5_12)
 
+<div style="display: flex; align-items: center; margin: 2em 0;">
+<hr style="flex: 1; border: none; border-top: 1px solid #888;">
+<span style="padding: 0 1em; white-space: nowrap; font-weight: bold;">2014</span>
+<hr style="flex: 1; border: none; border-top: 1px solid #888;">
+</div>
 
-        <div style="display: flex; align-items: center; margin: 2em 0;">
-          <hr style="flex: 1; border: none; border-top: 1px solid #888;">
-          <span style="padding: 0 1em; white-space: nowrap; font-weight: bold;">2014</span>
-          <hr style="flex: 1; border: none; border-top: 1px solid #888;">
-        </div>
-        
 
 **Karatzas, D. and Robles, S. and Gomez, L.** (2014).  
 “An on-line platform for ground truthing and performance evaluation of text extraction systems”  
@@ -385,13 +373,12 @@ permalink: /publications/
 “MSER-based real-time text detection and tracking”  
 *Proceedings - International Conference on Pattern Recognition*.
 
+<div style="display: flex; align-items: center; margin: 2em 0;">
+<hr style="flex: 1; border: none; border-top: 1px solid #888;">
+<span style="padding: 0 1em; white-space: nowrap; font-weight: bold;">2013</span>
+<hr style="flex: 1; border: none; border-top: 1px solid #888;">
+</div>
 
-        <div style="display: flex; align-items: center; margin: 2em 0;">
-          <hr style="flex: 1; border: none; border-top: 1px solid #888;">
-          <span style="padding: 0 1em; white-space: nowrap; font-weight: bold;">2013</span>
-          <hr style="flex: 1; border: none; border-top: 1px solid #888;">
-        </div>
-        
 
 **Dimosthenis Karatzas and Faisal Shafait and Seiichi Uchida and Masakazu Iwamura and Lluis Gomez i Bigorda and Sergi Robles Mestre and Joan Mas and David Fernandez Mota and Jon Almazan Almazan and Lluis Pere de las Heras** (2013).  
 “ICDAR 2013 Robust Reading Competition”  
@@ -403,13 +390,12 @@ permalink: /publications/
 *2013 12th International Conference on Document Analysis and Recognition*.
  [Link](https://doi.org/10.1109%2Ficdar.2013.100)
 
+<div style="display: flex; align-items: center; margin: 2em 0;">
+<hr style="flex: 1; border: none; border-top: 1px solid #888;">
+<span style="padding: 0 1em; white-space: nowrap; font-weight: bold;">2012</span>
+<hr style="flex: 1; border: none; border-top: 1px solid #888;">
+</div>
 
-        <div style="display: flex; align-items: center; margin: 2em 0;">
-          <hr style="flex: 1; border: none; border-top: 1px solid #888;">
-          <span style="padding: 0 1em; white-space: nowrap; font-weight: bold;">2012</span>
-          <hr style="flex: 1; border: none; border-top: 1px solid #888;">
-        </div>
-        
 
 **Lluis Gomez** (2012).  
 “Web semántica y gestión de archivos: una introducción”  
