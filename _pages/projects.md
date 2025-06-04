@@ -117,6 +117,7 @@ permalink: /projects/
   <strong>Keywords:</strong> Cultural Heritage, AI for Archives, Multimodal Indexing, Recommendation Systems, Computer Vision, NLP<br><br>
 
   <strong>More Info:</strong>  
+  <a href="https://youtu.be/DyKLoqyrPsA?list=PLPMj2J--V29dgpEtCBhvmqWBDY51gkvLv&t=231" target="_blank">Video</a> • 
   <a href="https://coeli.cat/" target="_blank">coeli.cat</a> • 
   <a href="https://cvc.uab.cat" target="_blank">cvc.uab.cat</a>
 </details>
