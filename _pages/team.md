@@ -2,8 +2,6 @@
 layout: single
 title: "Team"
 permalink: /team/
-sidebar:
-  nav: "main"
 ---
 
 ### Current Members
