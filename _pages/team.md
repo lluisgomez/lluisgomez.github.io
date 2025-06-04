@@ -4,7 +4,7 @@ title: "Team"
 permalink: /team/
 ---
 
-### Current Members
+### 🌱 Current Members
 
 **Francesc Net Barnes**  
 _PhD student_
@@ -17,7 +17,7 @@ _Visiting PhD student_ FSM, University Monastir (Tunisia).
 
 ---
 
-### Former Members
+### Former Members & Supervised Students
 
 #### PhD Students
 
