@@ -43,7 +43,7 @@ Machine Learning, Computer Vision, Fairness & Ethics in AI, Digital Humanities.
 ## Grants and Fellowships
 - Ramón y Cajal Research Fellowship (RYC2020-030777-I)
 - Marie Curie (H2020 TECNIOspring PLUS)
-- NVIDIA GPU Grant, AGAUR Fellowships, Google Summer of Code (2x)
+- Google Cloud research credits, NVIDIA GPU Grant, AGAUR Fellowships, Google Summer of Code (2x)
 
 ---
 
