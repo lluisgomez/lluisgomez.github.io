@@ -21,19 +21,19 @@ In parallel to my academic path, I have a strong interest in the social implicat
 
 <table  style="border-collapse: collapse; border: none; font-size: 1.03em;">
   <tr>
-    <td>03/06/2025</td>
-    <td>Book chapter published in "<em>Women, Technology, and Power</em>" 🎉</td>
+    <td style="border: none; padding: 4px;">03/06/2025</td>
+    <td style="border: none; padding: 4px;">Book chapter published in "<em>Women, Technology, and Power</em>" 🎉</td>
   </tr>
   <tr>
-    <td>01/06/2025</td>
-    <td>EU-CERV funded project <strong>InterVisions</strong> officially started 🚀 – Bias auditing for multimodal foundation models</td>
+    <td style="border: none; padding: 4px;">01/06/2025</td>
+    <td style="border: none; padding: 4px;">EU-CERV funded project <strong>InterVisions</strong> officially started 🚀 – Bias auditing for multimodal foundation models</td>
   </tr>
   <tr>
-    <td>07/05/2025</td>
-    <td>Paper accepted at <em>UAI 2025</em> 🎉 – "Over the Top-1: Uncertainty-Aware Cross-Modal Retrieval with CLIP"</td>
+    <td style="border: none; padding: 4px;">07/05/2025</td>
+    <td style="border: none; padding: 4px;">Paper accepted at <em>UAI 2025</em> 🎉 – "Over the Top-1: Uncertainty-Aware Cross-Modal Retrieval with CLIP"</td>
   </tr>
   <tr>
-    <td>04/04/2025</td>
-    <td>Paper accepted at <em>SIGIR 2025</em> 🎉 – "Measuring Text-Image Retrieval Fairness with Synthetic Data"</td>
+    <td style="border: none; padding: 4px;">04/04/2025</td>
+    <td style="border: none; padding: 4px;">Paper accepted at <em>SIGIR 2025</em> 🎉 – "Measuring Text-Image Retrieval Fairness with Synthetic Data"</td>
   </tr>
 </table>
