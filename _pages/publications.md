@@ -35,8 +35,13 @@ permalink: /publications/
 
 **Kang, Lei and Fu, Xuanshuo and Gomez, Lluis and Fornés, Alicia and Valveny, Ernest and Karatzas, Dimosthenis** (2025).  
 “Preserving Privacy Without Compromising Accuracy: Machine Unlearning for Handwritten Text Recognition”  
-*arXiv preprint arXiv:2504.08616*.
- [Link](https://arxiv.org/pdf/2504.08616)
+*Pattern Recognition*.
+ [Link](https://www.sciencedirect.com/science/article/pii/S0031320325010726)
+
+**Kang, Lei and Fu, Xuanshuo and Souibgui, Mohamed Ali and Barsky, Andrey and Gomez, Lluis and Vazquez-Corral, Javier and Fornés, Alicia and Valveny, Ernest and Karatzas, Dimosthenis** (2025).  
+“A Benchmark for Symbolic Reasoning from Pixel Sequences: Grid-Level Visual Completion and Correction”  
+*Mathematics*.
+ [Link](https://www.mdpi.com/2227-7390/13/17/2851)
 
 <div style="display: flex; align-items: center; margin: 2em 0;">
 <hr style="flex: 1; border: none; border-top: 1px solid #888;">
