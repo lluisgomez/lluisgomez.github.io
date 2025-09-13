@@ -6,13 +6,13 @@ permalink: /team/
 
 ### 🌱 Current Members
 
-**Francesc Net Barnes**  
-_PhD student_
+**Francesc Net Barnes, Cèlia Cruz Escalera**  
+_PhD students_
 
 **Cai Selvas Sala**, **Mustapha El Aichouni**, **Amelia Gómez Grabowska**  
 _Undergraduate interns_
 
-**Khaoula Benali** (prospective)  
+**Khaoula Benali**   
 _Visiting PhD student_ FSM, University Monastir (Tunisia).
 
 ---
@@ -34,6 +34,10 @@ _Visiting PhD student_ FSM, University Monastir (Tunisia).
   PhD in Computer Science, UAB.
 
 #### Master's Students
+
+- **Saranne van der Linde** (2024–25)  
+  _Decoding Emotions in Motion: Multimodal Emotion Recognition Tool for Migrant Videos_  
+  Master's in Computer Vision, UAB.
 
 - **Razvan-Florin Apatean** (2022–23)  
   _Improving Zero-shot Composed Image Retrieval for images with multiple objects_  
