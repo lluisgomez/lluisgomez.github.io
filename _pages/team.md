@@ -6,7 +6,7 @@ permalink: /team/
 
 ### 🌱 Current Members
 
-**Francesc Net Barnes, Cèlia Cruz Escalera**  
+**Francesc Net Barnes**  
 _PhD students_
 
 **Cai Selvas Sala**, **Mustapha El Aichouni**, **Amelia Gómez Grabowska**  
