@@ -6,6 +6,18 @@ permalink: /publications/
 
 <div style="display: flex; align-items: center; margin: 2em 0;">
 <hr style="flex: 1; border: none; border-top: 1px solid #888;">
+<span style="padding: 0 1em; white-space: nowrap; font-weight: bold;">2026</span>
+<hr style="flex: 1; border: none; border-top: 1px solid #888;">
+</div>
+
+
+**Lei Kang and Xuanshuo Fu and Lluis Gomez and Alicia Fornés and Ernest Valveny and Dimosthenis Karatzas** (2026).  
+“Preserving privacy without compromising accuracy: Machine unlearning for handwritten text recognition”  
+*Pattern Recognition*.
+ [Link](https://www.sciencedirect.com/science/article/pii/S0031320325010726)
+
+<div style="display: flex; align-items: center; margin: 2em 0;">
+<hr style="flex: 1; border: none; border-top: 1px solid #888;">
 <span style="padding: 0 1em; white-space: nowrap; font-weight: bold;">2025</span>
 <hr style="flex: 1; border: none; border-top: 1px solid #888;">
 </div>
@@ -23,6 +35,10 @@ permalink: /publications/
 “Charting Pathways: An Intersectional Impact Assessment for Vision and Language Foundation Models”  
 *Women, Technology, and Power - Unmasking (and dealing with) digital disparities in the times of the platforms*.
  [Link](https://editorial.tirant.com/es/ebook/women-technology-and-power---unmasking-and-dealing-with-digital-disparities-in-the-times-of-the-platforms-miren-gutierrez-9788410811102)
+
+**Kang, Lei and Fu, Xuanshuo and Souibgui, Mohamed Ali and Barsky, Andrey and Gomez, Lluis and Vazquez-Corral, Javier and Forn\'es, Alicia and Valveny, Ernest and Karatzas, Dimosthenis** (2025).  
+“A Benchmark for Symbolic Reasoning from Pixel Sequences: Grid-Level Visual Completion and Correction”  
+*Mathematics*.
 
 **Mustapha El Aichouni and Lluis Gomez and Lei Kang** (2025).  
 “Mitigating Distribution Bias in Multimodal Datasets via Clustering-Based Curation”  
