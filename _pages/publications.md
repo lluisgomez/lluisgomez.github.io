@@ -11,6 +11,10 @@ permalink: /publications/
 </div>
 
 
+**Lluis Gomez** (2026).  
+“Rethinking Membership Inference Attacks for CLIP”  
+*(Accepted, To appear) The 40th AAAI Conference on Artificial Intelligence*.
+
 **Lei Kang and Xuanshuo Fu and Lluis Gomez and Alicia Fornés and Ernest Valveny and Dimosthenis Karatzas** (2026).  
 “Preserving privacy without compromising accuracy: Machine unlearning for handwritten text recognition”  
 *Pattern Recognition*.
