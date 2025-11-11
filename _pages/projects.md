@@ -38,6 +38,7 @@ permalink: /projects/
 
 </details>
 
+<hr style="border: 0; border-top: 2px dotted #c9c9c9; margin: 1.25rem 0;">
 
 <details>
   <summary>
@@ -77,6 +78,7 @@ permalink: /projects/
   <a href="https://github.com/lluisgomez/FairCLIP" target="_blank">FairCLIP GitHub Repository</a>  
 </details>
 
+<hr style="border: 0; border-top: 2px dotted #c9c9c9; margin: 1.25rem 0;">
 
 <details>
   <summary>
