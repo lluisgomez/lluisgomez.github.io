@@ -21,6 +21,10 @@ In parallel to my academic path, I have a strong interest in the social implicat
 
 <table  style="border-collapse: collapse; border: none; font-size: 1.03em;">
   <tr>
+    <td style="border: none; padding: 4px; vertical-align: top;">17/12/2025</td>
+    <td style="border: none; padding: 4px; vertical-align: top;">Paper accepted at <em>ECIR 2026</em> 🎉 – "Debiasing CLIP with Neural Interventions" – with Amelia Gómez Grabowska and Jordi Gonzàlez.</td>
+  </tr>
+  <tr>
     <td style="border: none; padding: 4px; vertical-align: top;">11/11/2025</td>
     <td style="border: none; padding: 4px; vertical-align: top;">Paper accepted at <em>AAAI 2026</em> 🎉 – "Rethinking Membership Inference Attacks for CLIP"</td>
   </tr>
