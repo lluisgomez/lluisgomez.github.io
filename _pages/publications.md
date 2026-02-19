@@ -34,33 +34,27 @@ permalink: /publications/
 **Lluis Gomez** (2025).  
 “Measuring Text-Image Retrieval Fairness with Synthetic Data”  
 *Proceedings of the 48th International ACM SIGIR Conference on Research and Development in Information Retrieval*.
+ [Link](https://dl.acm.org/doi/abs/10.1145/3726302.3730030)
 
 **Lluis Gomez** (2025).  
 “Over the Top-1: Uncertainty-Aware Cross-Modal Retrieval with CLIP”  
 *Proceedings of the 41st Conference on Uncertainty in Artificial Intelligence (UAI)*.
+ [Link](https://proceedings.mlr.press/v286/gomez25a.html)
 
 **Sonia Ruiz and Lluis Gomez** (2025).  
 “Charting Pathways: An Intersectional Impact Assessment for Vision and Language Foundation Models”  
 *Women, Technology, and Power - Unmasking (and dealing with) digital disparities in the times of the platforms*.
  [Link](https://editorial.tirant.com/es/ebook/women-technology-and-power---unmasking-and-dealing-with-digital-disparities-in-the-times-of-the-platforms-miren-gutierrez-9788410811102)
 
-**Kang, Lei and Fu, Xuanshuo and Souibgui, Mohamed Ali and Barsky, Andrey and Gomez, Lluis and Vazquez-Corral, Javier and Forn\'es, Alicia and Valveny, Ernest and Karatzas, Dimosthenis** (2025).  
-“A Benchmark for Symbolic Reasoning from Pixel Sequences: Grid-Level Visual Completion and Correction”  
-*Mathematics*.
-
 **Mustapha El Aichouni and Lluis Gomez and Lei Kang** (2025).  
 “Mitigating Distribution Bias in Multimodal Datasets via Clustering-Based Curation”  
 *Iberian Conference on Pattern Recognition and Image Analysis (IbPRIA)*.
+ [Link](https://link.springer.com/chapter/10.1007/978-3-031-99565-1_35)
 
 **Net, Francesc and Folia, Marc and Casals, Pep and Bagdanov, Andrew D. and Gómez, Lluis** (2025).  
 “EUFCC-340K: A faceted hierarchical dataset for metadata annotation in GLAM collections”  
 *Multimedia Tools and Applications*.
  [Link](http://dx.doi.org/10.1007/s11042-024-20561-9)
-
-**Kang, Lei and Fu, Xuanshuo and Gomez, Lluis and Fornés, Alicia and Valveny, Ernest and Karatzas, Dimosthenis** (2025).  
-“Preserving Privacy Without Compromising Accuracy: Machine Unlearning for Handwritten Text Recognition”  
-*Pattern Recognition*.
- [Link](https://www.sciencedirect.com/science/article/pii/S0031320325010726)
 
 **Kang, Lei and Fu, Xuanshuo and Souibgui, Mohamed Ali and Barsky, Andrey and Gomez, Lluis and Vazquez-Corral, Javier and Fornés, Alicia and Valveny, Ernest and Karatzas, Dimosthenis** (2025).  
 “A Benchmark for Symbolic Reasoning from Pixel Sequences: Grid-Level Visual Completion and Correction”  
