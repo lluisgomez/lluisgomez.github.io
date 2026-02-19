@@ -6,10 +6,10 @@ permalink: /team/
 
 ### 🌱 Current Members
 
-**Francesc Net Barnes**  
+**Francesc Net Barnes**, **Sofia Llàcer Caro**  
 _PhD students_
 
-**Cai Selvas Sala**, **Mustapha El Aichouni**, **Amelia Gómez Grabowska**  
+**Abril María Risso Matas**, **Mustapha El Aichouni**, **Amelia Gómez Grabowska**, **Cai Selvas Sala**  
 _Undergraduate interns_
 
 **Khaoula Benali**   
