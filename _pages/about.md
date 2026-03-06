@@ -21,6 +21,10 @@ In parallel to my academic path, I have a strong interest in the social implicat
 
 <table  style="border-collapse: collapse; border: none; font-size: 1.03em;">
   <tr>
+    <td style="border: none; padding: 4px; vertical-align: top;">02/03/2026</td>
+    <td style="border: none; padding: 4px; vertical-align: top;">Paper accepted at <em>CVPR 2026</em> 🎉 – "SALMUBench: A Benchmark for Sensitive Association-Level Multimodal Unlearning" – with Cai Selvas-Sala and Lei Kang.</td>
+  </tr>
+  <tr>
     <td style="border: none; padding: 4px; vertical-align: top;">17/12/2025</td>
     <td style="border: none; padding: 4px; vertical-align: top;">Paper accepted at <em>ECIR 2026</em> 🎉 – "Debiasing CLIP with Neural Interventions" – with Amelia Gómez Grabowska and Jordi Gonzàlez.</td>
   </tr>

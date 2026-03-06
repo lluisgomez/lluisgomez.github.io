@@ -11,6 +11,10 @@ permalink: /publications/
 </div>
 
 
+**Cai Selvas-Sala and Lei Kang and Lluis Gomez** (2026).  
+“SALMUBench: A Benchmark for Sensitive Association-Level Multimodal Unlearning”  
+*(Accepted, To appear) Proceedings - 2026 IEEE/CVF Conference on Computer Vision and Pattern Recognition, CVPR 2026*.
+
 **Amelia Gómez Grabowska and Jordi Gonzàlez and Lluis Gomez** (2026).  
 “Debiasing CLIP with Neural Interventions”  
 *(Accepted, To appear) The 48th European Conference on Information Retrieval (ECIR 2026)*.
@@ -18,6 +22,7 @@ permalink: /publications/
 **Lluis Gomez** (2026).  
 “Rethinking Membership Inference Attacks for CLIP”  
 *(Accepted, To appear) The 40th AAAI Conference on Artificial Intelligence (AAAI 2026)*.
+ [Link](https://openreview.net/pdf?id=5qP641sAKO)
 
 **Lei Kang and Xuanshuo Fu and Lluis Gomez and Alicia Fornés and Ernest Valveny and Dimosthenis Karatzas** (2026).  
 “Preserving privacy without compromising accuracy: Machine unlearning for handwritten text recognition”  
