@@ -18,11 +18,12 @@ permalink: /publications/
 **Amelia Gómez Grabowska and Jordi Gonzàlez and Lluis Gomez** (2026).  
 “Debiasing CLIP with Neural Interventions”  
 *(Accepted, To appear) The 48th European Conference on Information Retrieval (ECIR 2026)*.
+ [Link](https://openreview.net/pdf/492217aa6402d3d1db49122d1c8f49c9c2b8b451.pdf)
 
 **Lluis Gomez** (2026).  
 “Rethinking Membership Inference Attacks for CLIP”  
-*(Accepted, To appear) The 40th AAAI Conference on Artificial Intelligence (AAAI 2026)*.
- [Link](https://openreview.net/pdf?id=5qP641sAKO)
+*Proceedings of the AAAI Conference on Artificial Intelligence*.
+ [Link](https://ojs.aaai.org/index.php/AAAI/article/view/39276)
 
 **Lei Kang and Xuanshuo Fu and Lluis Gomez and Alicia Fornés and Ernest Valveny and Dimosthenis Karatzas** (2026).  
 “Preserving privacy without compromising accuracy: Machine unlearning for handwritten text recognition”  
