@@ -11,14 +11,19 @@ permalink: /publications/
 </div>
 
 
+**Francesc Net, Adrià Molina, Sofia Llacer-Caro, Lluis Gomez** (2026).  
+“Revisiting how we access to historical archives: Auditing Gender Stereotypes and the Division of Labour in the Analysis of Historical Photography Collections”  
+*Accepted, To appear) 20th International Conference on Document Analysis and Recognition (ICDAR 2026)*.
+
 **Cai Selvas-Sala and Lei Kang and Lluis Gomez** (2026).  
 “SALMUBench: A Benchmark for Sensitive Association-Level Multimodal Unlearning”  
-*(Accepted, To appear) Proceedings - 2026 IEEE/CVF Conference on Computer Vision and Pattern Recognition, CVPR 2026*.
+*Proceedings - 2026 IEEE/CVF Conference on Computer Vision and Pattern Recognition, CVPR 2026*.
+ [Link](https://cvc-mmu.github.io/salmubench/)
 
 **Amelia Gómez Grabowska and Jordi Gonzàlez and Lluis Gomez** (2026).  
 “Debiasing CLIP with Neural Interventions”  
 *(Accepted, To appear) The 48th European Conference on Information Retrieval (ECIR 2026)*.
- [Link](https://openreview.net/pdf/492217aa6402d3d1db49122d1c8f49c9c2b8b451.pdf)
+ [Link](https://link.springer.com/chapter/10.1007/978-3-032-21324-2_32)
 
 **Lluis Gomez** (2026).  
 “Rethinking Membership Inference Attacks for CLIP”  
