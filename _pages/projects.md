@@ -34,7 +34,7 @@ permalink: /projects/
 
   <strong>Keywords:</strong> Bias in AI, Ethical AI, Participatory AI, Intersectionality, Fairness Benchmark, Vision & Language Models<br><br>
 
-  <strong>Project Website:</strong>  TBD
+  <strong>Project Website:</strong>  <a href="https://www.intervisions.eu" target="_blank">https://www.intervisions.eu/</a>
 
 </details>
 
