@@ -22,7 +22,7 @@ permalink: /publications/
 
 **Amelia Gómez Grabowska and Jordi Gonzàlez and Lluis Gomez** (2026).  
 “Debiasing CLIP with Neural Interventions”  
-*(Accepted, To appear) The 48th European Conference on Information Retrieval (ECIR 2026)*.
+*The 48th European Conference on Information Retrieval (ECIR 2026)*.
  [Link](https://link.springer.com/chapter/10.1007/978-3-032-21324-2_32)
 
 **Lluis Gomez** (2026).  
