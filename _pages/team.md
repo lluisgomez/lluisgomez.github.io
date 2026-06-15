@@ -9,7 +9,7 @@ permalink: /team/
 **Francesc Net Barnes**, **Sofia Llàcer Caro**  
 _PhD students_
 
-**Marc Artero Pons** 
+**Marc Artero Pons**  
 _MSc student_
 
 **Abril María Risso Matas**, **Mustapha El Aichouni**, **Amelia Gómez Grabowska**, **Cai Selvas Sala**  
