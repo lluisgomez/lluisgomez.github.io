@@ -49,14 +49,14 @@ for entry in entries:
     # Construct the entry
     entry_lines = [f"**{authors}** ({year}).  \n“{title}”  \n*{venue}*."]
     links = []
+    if url:
+        links.append(f"[Link]({url})")
     if pdf:
         links.append(f"[PDF]({pdf})")
     if code:
         links.append(f"[Code]({code})")
     if project:
         links.append(f"[Project Page]({project})")
-    if url and not pdf and not project and not code:
-        links.append(f"[Link]({url})")
 
     if links:
         entry_lines.append(" " + " ".join(links))
