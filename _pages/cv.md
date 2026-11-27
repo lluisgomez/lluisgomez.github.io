@@ -7,7 +7,7 @@ redirect_from:
   - /resume
 ---
 
-📄 [Download full CV (PDF)](/files/LluisGomezBigorda_CV2023.pdf)
+📄 [Download full CV (PDF)](/files/LluisGomezBigorda_CV.pdf)
 
 ---
 
