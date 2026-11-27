@@ -11,9 +11,13 @@ permalink: /publications/
 </div>
 
 
+**Mustapha El Aichouni and Lluis Gomez and Lei Kang** (2026).  
+“Revisiting Fusion for Low-Data Multimodal Adaptation”  
+*Accepted (to appear) Conference of the European Chapter of the Association for Computational Linguistics (EACL 2027)*.
+
 **Francesc Net, Adrià Molina, Sofia Llacer-Caro, Lluis Gomez** (2026).  
 “Revisiting how we access to historical archives: Auditing Gender Stereotypes and the Division of Labour in the Analysis of Historical Photography Collections”  
-*Accepted, To appear) 20th International Conference on Document Analysis and Recognition (ICDAR 2026)*.
+*Accepted (to appear) 20th International Conference on Document Analysis and Recognition (ICDAR 2026)*.
 
 **Cai Selvas-Sala and Lei Kang and Lluis Gomez** (2026).  
 “SALMUBench: A Benchmark for Sensitive Association-Level Multimodal Unlearning”  
