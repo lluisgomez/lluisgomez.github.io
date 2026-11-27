@@ -21,6 +21,10 @@ In parallel to my academic path, I have a strong interest in the social implicat
 
 <table  style="border-collapse: collapse; border: none; font-size: 1.03em;">
   <tr>
+    <td style="border: none; padding: 4px; vertical-align: top;">27/11/2026</td>
+    <td style="border: none; padding: 4px; vertical-align: top;">Paper accepted at <em>EACL 2027</em> 🎉 – "Revisiting Fusion for Low-Data Multimodal Adaptation" – with Mustapha El Aichouni and Lei Kang.</td>
+  </tr>
+  <tr>
     <td style="border: none; padding: 4px; vertical-align: top;">23/05/2026</td>
     <td style="border: none; padding: 4px; vertical-align: top;">Paper accepted at <em>ICDAR 2026</em> 🎉 – "Auditing Gender Stereotypes and the Division of Labour in the Analysis of Historical Photography Collections" – with Francesc Net, Adrià Molina and Sofia Llacer-Caro.</td>
   </tr>
