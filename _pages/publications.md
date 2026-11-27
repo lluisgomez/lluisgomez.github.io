@@ -11,7 +11,7 @@ permalink: /publications/
 </div>
 
 
-**Mustapha El Aichouni and Lluis Gomez and Lei Kang** (2026).  
+**Mustapha El Aichouni and Lei Kang and Lluis Gomez** (2026).  
 “Revisiting Fusion for Low-Data Multimodal Adaptation”  
 *Accepted (to appear) Conference of the European Chapter of the Association for Computational Linguistics (EACL 2027)*.
 
