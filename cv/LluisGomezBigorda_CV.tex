@@ -5,14 +5,16 @@
 
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
-\usepackage[garamond]{mathdesign}
+\usepackage[lining]{ebgaramond}
 \usepackage[letterpaper,margin=1in]{geometry}
+\usepackage{microtype}
 \usepackage{enumitem}
 \usepackage{titlesec}
 \usepackage{fancyhdr}
 \usepackage{lastpage}
 \usepackage{xcolor}
 \usepackage[hidelinks]{hyperref}
+\urlstyle{same}
 
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{0pt}
@@ -61,14 +63,27 @@ Barcelona, Spain
 Phone: +34 93 581 18 28\\
 Email: \href{mailto:lgomez@cvc.uab.es}{lgomez@cvc.uab.es}\\
 Homepage: \url{https://lluisgomez.github.io/}\\
-GitHub: \url{https://github.com/lluisgomez/}
+GitHub: \url{https://github.com/lluisgomez/}\\
+ORCID: \href{https://orcid.org/0000-0003-1408-9803}{0000-0003-1408-9803}\\
+Google Scholar: \href{https://scholar.google.es/citations?user=U5DQ99QAAAAJ}{U5DQ99QAAAAJ}
 \end{minipage}}
+
+%-------------------------------------------------------------------------------
+\section*{Summary}
+\begin{entries}
+\item \textit{Publications:} 10 journal articles indexed in JCR (8 in Q1); over 50 peer-reviewed conference papers, 10 in CORE A* venues and 25 in CORE A venues; 1 book (Ph.D.\ thesis) and 5 book chapters.
+\item \textit{Supervision:} 3 Ph.D.\ theses completed, 2 ongoing; 8 M.Sc.\ theses.
+\item \textit{Impact (Google Scholar):} h-index 29; 7,091 total citations; 957 citations per year on average over the last 4 years.
+\end{entries}
 
 %-------------------------------------------------------------------------------
 \section*{Employment}
 \begin{entries}
-\item Universitat Autònoma de Barcelona, (Ramón y Cajal) Research Fellow, March 2022--present.
-\item Computer Vision Center, Postdoctoral Researcher, April 2016--April 2022.
+\item Universitat Autònoma de Barcelona (Dept.\ of Computer Science) and Computer Vision Center, Ramón y Cajal Research Fellow, March 2022--present.
+\item Computer Vision Center, Postdoctoral Researcher, 2020--2022.
+\item Osaka Prefecture University, Dept.\ of Computer Science and Intelligent Systems, Visiting Researcher, 2018--2022.
+\item Computer Vision Center and Media Integration and Communication Center (University of Florence), TECNIOspring+ Postdoctoral Research Fellow (Marie Skłodowska-Curie COFUND), 2018--2020.
+\item Computer Vision Center, Postdoctoral Researcher, 2016--2018.
 \item Computer Vision Center -- Universitat Autònoma de Barcelona, Research and Teaching Assistant, 2011--2016.
 \item Hangar.org, C/C++ Senior Developer and Principal Software Engineer, 2005--2011.
 \item Pangea.org -- Internet Service Provider, Senior Developer and System Administrator, 2001--2005.
@@ -79,9 +94,9 @@ GitHub: \url{https://github.com/lluisgomez/}
 %-------------------------------------------------------------------------------
 \section*{Education}
 \begin{entries}
-\item Ph.D. Computer Vision, \textit{Cum Laude}, Universitat Autònoma de Barcelona, 2016.
+\item Ph.D. Computer Science, \textit{Cum Laude}, Universitat Autònoma de Barcelona, 2016. Supervisor: Prof.\ Dimosthenis Karatzas.
 \item M.Sc. Computer Vision and Artificial Intelligence, Universitat Autònoma de Barcelona, 2012.
-\item M.Sc. Computer Science, Universitat Oberta de Catalunya, 2011.
+\item M.Sc. (interdisciplinary) Free Software, Universitat Oberta de Catalunya, 2011.
 \item B.Sc. Computer Science, Universitat Oberta de Catalunya, 2010.
 \end{entries}
 
@@ -112,10 +127,16 @@ GitHub: \url{https://github.com/lluisgomez/}
 \item Gomez, L., Karatzas, D. (2016). A Fast Hierarchical Method for Multi-script and Arbitrary Oriented Scene Text Extraction. \venue{International Journal on Document Analysis and Recognition}.
 \end{pubs}
 
+\subsection*{Books}
+\begin{pubs}
+\item Gomez, L. (2016). Exploiting similarity hierarchies for multi-script scene text understanding. Ph.D.\ Thesis, Universitat Autònoma de Barcelona. ISBN: 978-84-943427-9-0.
+\end{pubs}
+
 \subsection*{Book Chapters}
 \begin{pubs}
 \item Ruiz, S., Gomez, L. (2025). Charting Pathways: An Intersectional Impact Assessment for Vision and Language Foundation Models. In \venue{Women, Technology, and Power -- Unmasking (and dealing with) digital disparities in the times of the platforms}. Eds: M. Gutiérrez, A. Moreno Cano. Tirant lo Blanch.
 \item Gomez, R., Gomez, L., Gibert, J., Karatzas, D. (2019). Self-Supervised Learning from Web Data for Multimodal Retrieval. In \venue{Multimodal Scene Understanding: Algorithms, Applications and Deep Learning}. Eds: M.Y. Yang, B. Rosenhahn, V. Murino. ISBN: 9780128173596. Elsevier / Academic Press.
+\item Gomez, L. (2012). Web semántica y gestión de archivos: una introducción. In \venue{Gestión de la innovación y nuevas estrategias de investigación y difusión del fondo documental artístico}. ISBN: 978-84-9704-993-3.
 \end{pubs}
 
 \subsection*{Peer-Reviewed Conference and Workshop Articles}
@@ -146,6 +167,7 @@ GitHub: \url{https://github.com/lluisgomez/}
 \item Riba, P., Molina, A., Gomez, L., Ramos-Terrades, O., Lladós, J. (2021). Learning to Rank Words: Optimizing Ranking Metrics for Word Spotting. In Proc. \venue{International Conference on Document Analysis and Recognition (ICDAR)}.
 \item Mafla, A., Rezende, R.S., Gomez, L., Larlus, D., Karatzas, D. (2021). StacMR: Scene-Text Aware Cross-Modal Retrieval. In Proc. \venue{IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)}.
 \item Mafla, A., Dey, S., Biten, A.F., Gomez, L., Karatzas, D. (2021). Multi-modal reasoning graph for scene-text based fine-grained image classification and retrieval. In Proc. \venue{IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)}.
+\item Gomez, R., Gibert, J., Gomez, L., Karatzas, D. (2020). Location Sensitive Image Retrieval and Tagging. In Proc. \venue{European Conference on Computer Vision (ECCV)}.
 \item Janouskova, K., Matas, J., Gomez, L., Karatzas, D. (2020). Text recognition -- real world data and where to find them. In Proc. \venue{International Conference on Pattern Recognition (ICPR)}.
 \item Reddy, S., Mathew, M., Gomez, L., Rusiñol, M., Karatzas, D., Jawahar, C.V. (2020). RoadText-1K: Text Detection and Recognition Dataset for Driving Videos. In Proc. \venue{IEEE International Conference on Robotics and Automation (ICRA)}.
 \item Mafla, A., Dey, S., Biten, A.F., Gomez, L., Karatzas, D. (2020). Fine-grained Image Classification and Retrieval by Combining Visual and Locally Pooled Textual Features. In Proc. \venue{IEEE Winter Conference on Applications of Computer Vision (WACV)}.
@@ -183,6 +205,8 @@ GitHub: \url{https://github.com/lluisgomez/}
 %-------------------------------------------------------------------------------
 \section*{Invited Talks, Conference Tutorials and Demonstrations}
 \begin{entries}
+\item 2025: Gomez, L. Invited Talk at Hangar.org AIAIAI.
+\item 2025: Gomez, L. Invited Talk at the Robust IR Workshop, SIGIR 2025.
 \item 2023: Gomez, L. Deep Archive: Exploring the past with artificial intelligence. Invited Talk at the Experiment.AI event.
 \item 2020: Gomez, L. Scene Text Understanding beyond OCR. Invited Talk at the BCN.ai Winter event.
 \item 2019: Gomez, L. Scene Text Visual Question Answering. Invited Talk at the Deep Learning Barcelona Symposium (DLBCN 2019).
@@ -198,6 +222,7 @@ GitHub: \url{https://github.com/lluisgomez/}
 \section*{Grants, Fellowships, \& Awards}
 \begin{entries}
 \item EuroHPC AI \& Data-Intensive Applications Access Call (EHPC-AI-2024A02-040), 32,000 node hours on MareNostrum5, 2024.
+\item Google Research Credits Program recipient, 2023.
 \item Ramón y Cajal Research Fellowship (RYC2020-030777-I), Spanish Government Plan for Scientific Research and Innovation, 2020.
 \item H2020 Marie Skłodowska-Curie actions of the European Union, grant agreement No 712949 (TECNIOspring PLUS), 2018.
 \item NVIDIA GPU Grant program recipient, 2018.
@@ -217,19 +242,31 @@ GitHub: \url{https://github.com/lluisgomez/}
 
 %-------------------------------------------------------------------------------
 \section*{Participation in R\&D Projects}
+\subsection*{As Principal Investigator}
 \begin{entries}
-\item 2025--2026: InterVisions -- Participatory AI for Intersectional Bias Auditing (CERV 101214711). Coordinated by ALIA -- Associació Cultural de Dones per a la Recerca i l'Acció, with CVC-UAB as research partner. Funded by the European Union, CERV programme (245,417 €).
-\item 2024--2025: FairCLIP -- Training a Fair CLIP Model with Hybrid Real and Synthetic Data (EHPC-AI-2024A02-040). Principal Investigator: Lluis Gomez. Funded by EuroHPC JU (32,000 node hours on MareNostrum5).
-\item 2023--2025: COELI-IA -- From Text to Media: A Paradigm Shift in Cultural Heritage Management (RDECR20/EMT/1791/2021). CVC Lead: Lluis Gomez. Funded by ACCIÓ, INNOTEC R+D programme, Catalan Government (195,530 €; CVC share 84,446 €).
-\item 2021--2023: ReadQA -- Reading Systems for Visual Question Answering (PID2020-116298GB-I00). Principal Investigators: Dimosthenis Karatzas and Lluis Gomez. Funded by Spanish Ministry of Science and Innovation (89,419 €).
-\item 2020--2021: BeARS -- Beyond Automatic Reading Systems. Principal Investigators: Marçal Rusiñol and Lluis Gomez. Funded by AGAUR (97,000 €).
-\item 2018--2020: DeepPhotoArchive. Principal Investigator: Lluis Gomez. Funded by TECNIOspring PLUS / H2020 MSCA / ACCIÓ (113,339 €).
+\item 2025--2026: InterVisions -- Participatory AI for Intersectional Bias Auditing (CERV 101214711). Co-PI (CVC): Lluis Gomez. Coordinated by ALIA -- Associació Cultural de Dones per a la Recerca i l'Acció. Funded by the European Union, CERV programme (245,417 €).
+\item 2024--2025: FairCLIP -- Training a Fair CLIP Model with Hybrid Real and Synthetic Data (EHPC-AI-2024A02-040). PI: Lluis Gomez. Funded by EuroHPC AI \& Data-Intensive Applications Access Call (32,000 node hours on MareNostrum5).
+\item 2022--2024: Coeli-IA -- From Text to Media: Paradigm Shift in the Management and Dissemination of Heritage Content. PI: Lluis Gomez. Funded by ACCIÓ, Catalan Government (144,542 €).
+\item 2021--2023: ReadQA -- Reading Systems for Visual Question Answering (PID2020-116298GB-I00). Co-PIs: Dimosthenis Karatzas and Lluis Gomez. Funded by Spanish Ministry of Science and Innovation (89,419 €).
+\item 2020--2021: BeARS -- Beyond Automatic Reading Systems. Co-PIs: Marçal Rusiñol and Lluis Gomez. Funded by AGAUR, Catalan Government (97,000 €).
+\item 2018--2020: DeepPhotoArchive. PI: Lluis Gomez. Funded by TECNIOspring PLUS (H2020 MSCA COFUND) / ACCIÓ (113,339 €).
+\end{entries}
+
+\subsection*{As Research Team Member}
+\begin{entries}
+\item 2022--2025: ELSA -- European Lighthouse on Secure and Safe AI. European Commission flagship initiative; member of the CVC research team within a consortium of 28 international institutions.
 \item 2018--2020: READS -- Reading the Scene (TIN2017-89779P). Principal Investigators: Dimosthenis Karatzas and Ernest Valveny. Funded by Spanish Ministry of Economy, Industry and Competitiveness (81,554 €).
 \item 2018--2019: Semantic Search in Digital Newspaper Libraries. Principal Investigator: Marçal Rusiñol. Funded by Fundación BBVA (74,526 €).
 \item 2015--2017: RAW -- Reading in the Wild (TIN2014-52072P). Principal Investigator: Dimosthenis Karatzas. Funded by Spanish Ministry of Economy and Competitiveness (109,021 €).
 \item 2012--2014: Text and the City -- Human Centred Scene Text Understanding (TIN2011-24631). Principal Investigator: Dimosthenis Karatzas. Funded by Spanish Ministry of Science and Innovation (78,045 €).
 \item 2010--2013: Knowledge Extraction from Document Images with Heterogeneous Contents (TIN2009-14633-C03-03). Principal Investigator: Josep Lladós. Funded by Spanish Ministry of Science and Innovation (195,000 €).
 \item 2009--2011: HuPerText -- Human Perception Inspired Text Technologies (TIN2008-04998). Principal Investigator: Dimosthenis Karatzas. Funded by Spanish Ministry of Science and Innovation (49,610 €).
+\end{entries}
+
+%-------------------------------------------------------------------------------
+\section*{Technology Transfer}
+\begin{entries}
+\item Co-founder (2019) of AllRead Machine Learning Technologies, a start-up commercialising research outcomes developed with academic partners. AllRead closed investment rounds of 450,000 € (2020) and 2.5 M€ (2022, pre-series A), and today employs more than 20 people and operates in 10 countries in Europe and Latin America.
 \end{entries}
 
 %-------------------------------------------------------------------------------
@@ -258,7 +295,11 @@ GitHub: \url{https://github.com/lluisgomez/}
 %-------------------------------------------------------------------------------
 \section*{Professional Activities}
 \begin{entries}
-\item Reviewer for CVPR, ICCV, ECCV, ICLR, International Journal of Computer Vision, IEEE Transactions on Pattern Analysis and Machine Intelligence, Pattern Recognition, Computer Vision and Image Understanding, International Journal on Document Analysis and Recognition, Neurocomputing, IEEE Transactions on Image Processing, Packt Publishing.
+\item Board member (Vocal), Spanish Association for Pattern Recognition and Image Analysis (AERFAI).
+\item Member, European Laboratory for Learning and Intelligent Systems (ELLIS).
+\item Core member of the ICDAR Robust Reading Competition organizing team (2013--2019), an international initiative involving more than 10 institutions, whose benchmarks have accumulated over 3,000 citations.
+\item Program Committee member of CVPR, ICCV, ECCV, and AAAI.
+\item Reviewer for CVPR, ICCV, ECCV, ICLR, AAAI, International Journal of Computer Vision, IEEE Transactions on Pattern Analysis and Machine Intelligence, Pattern Recognition, Computer Vision and Image Understanding, International Journal on Document Analysis and Recognition, Neurocomputing, IEEE Transactions on Image Processing, Packt Publishing.
 \item Workshop Chair, International Workshop on Camera Based Document Analysis and Recognition (2019).
 \item Workshop Chair, International Workshop on Robust Reading (2018).
 \item Programme Committee member, International Workshop on Document Analysis Systems (2018).
