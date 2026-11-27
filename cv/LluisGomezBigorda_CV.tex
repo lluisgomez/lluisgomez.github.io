@@ -1,0 +1,332 @@
+% Curriculum Vitae -- Lluis Gomez-Bigorda
+% Build:  cd cv && latexmk -pdf LluisGomezBigorda_CV.tex
+% Then copy the PDF to ../files/LluisGomezBigorda_CV.pdf
+\documentclass[11pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[garamond]{mathdesign}
+\usepackage[letterpaper,margin=1in]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{xcolor}
+\usepackage[hidelinks]{hyperref}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+
+% Headers / footers: name and page number from page 2 on
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\fancyhead[L]{\small Lluis Gomez-Bigorda}
+\fancyhead[R]{\small\thepage}
+\fancypagestyle{plain}{\fancyhf{}}
+
+% Section styles
+\titleformat{\section}{\Large}{}{0pt}{}
+\titlespacing*{\section}{0pt}{1.4em}{0.6em}
+\titleformat{\subsection}{\large\itshape}{}{0pt}{}
+\titlespacing*{\subsection}{0pt}{1.0em}{0.4em}
+
+% A plain list of entries with a hanging indent
+\newenvironment{entries}{%
+  \begin{list}{}{\setlength{\leftmargin}{3em}\setlength{\itemindent}{-1.5em}%
+    \setlength{\itemsep}{0.35em}\setlength{\parsep}{0pt}\setlength{\topsep}{0.2em}}}%
+  {\end{list}}
+
+% Numbered publication list; numbering continues across sections
+\newlist{pubs}{enumerate}{1}
+\setlist[pubs]{label=\arabic*., leftmargin=2.5em, itemsep=0.35em, topsep=0.2em, resume}
+
+\newcommand{\venue}[1]{\textit{#1}}
+
+\begin{document}
+\thispagestyle{plain}
+
+%-------------------------------------------------------------------------------
+{\huge Lluis Gomez-Bigorda}\par
+\vspace{1.2em}
+{\small
+\begin{minipage}[t]{0.5\textwidth}
+Computer Vision Center\\
+Universitat Autònoma de Barcelona\\
+Edifici O, Campus UAB\\
+08193 Bellaterra (Cerdanyola)\\
+Barcelona, Spain
+\end{minipage}%
+\begin{minipage}[t]{0.5\textwidth}
+Phone: +34 93 581 18 28\\
+Email: \href{mailto:lgomez@cvc.uab.es}{lgomez@cvc.uab.es}\\
+Homepage: \url{https://lluisgomez.github.io/}\\
+GitHub: \url{https://github.com/lluisgomez/}
+\end{minipage}}
+
+%-------------------------------------------------------------------------------
+\section*{Employment}
+\begin{entries}
+\item Universitat Autònoma de Barcelona, (Ramón y Cajal) Research Fellow, March 2022--present.
+\item Computer Vision Center, Postdoctoral Researcher, April 2016--April 2022.
+\item Computer Vision Center -- Universitat Autònoma de Barcelona, Research and Teaching Assistant, 2011--2016.
+\item Hangar.org, C/C++ Senior Developer and Principal Software Engineer, 2005--2011.
+\item Pangea.org -- Internet Service Provider, Senior Developer and System Administrator, 2001--2005.
+\item Drac Telemàtic -- Internet Service Provider, Junior Developer, 1999--2001.
+\item Steria Computing Services, Junior Developer, 1999.
+\end{entries}
+
+%-------------------------------------------------------------------------------
+\section*{Education}
+\begin{entries}
+\item Ph.D. Computer Vision, \textit{Cum Laude}, Universitat Autònoma de Barcelona, 2016.
+\item M.Sc. Computer Vision and Artificial Intelligence, Universitat Autònoma de Barcelona, 2012.
+\item M.Sc. Computer Science, Universitat Oberta de Catalunya, 2011.
+\item B.Sc. Computer Science, Universitat Oberta de Catalunya, 2010.
+\end{entries}
+
+%-------------------------------------------------------------------------------
+\section*{Languages}
+\begin{entries}
+\item Catalan -- mother tongue.
+\item Spanish -- mother tongue.
+\item English -- C1 level of the Common European Framework of Reference for Languages (CEFR). TOEFL certified.
+\item Italian -- basic conversation skills.
+\end{entries}
+
+%-------------------------------------------------------------------------------
+\section*{Research}
+\textit{Research Interests:} Machine Learning, Computer Vision, Responsible AI (bias, fairness and privacy in multimodal models), Document Analysis, and Digital Humanities.
+
+\subsection*{Peer-Reviewed Journal Articles}
+\begin{pubs}[start=1]
+\item Kang, L., Fu, X., Gomez, L., Fornés, A., Valveny, E., Karatzas, D. (2026). Preserving privacy without compromising accuracy: Machine unlearning for handwritten text recognition. \venue{Pattern Recognition}, 172, 112411.
+\item Kang, L., Fu, X., Souibgui, M.A., Barsky, A., Gomez, L., Vazquez-Corral, J., Fornés, A., Valveny, E., Karatzas, D. (2025). A Benchmark for Symbolic Reasoning from Pixel Sequences: Grid-Level Visual Completion and Correction. \venue{Mathematics}, 13.
+\item Net, F., Folia, M., Casals, P., Bagdanov, A.D., Gomez, L. (2025). EUFCC-340K: A faceted hierarchical dataset for metadata annotation in GLAM collections. \venue{Multimedia Tools and Applications}.
+\item Gomez, L., Biten, A.F., Tito, R., Mafla, A., Rusiñol, M., Valveny, E., Karatzas, D. (2021). Multimodal grid features and cell pointers for scene text visual question answering. \venue{Pattern Recognition Letters}.
+\item Mathew, M., Gomez, L., Karatzas, D., Jawahar, C.V. (2021). Asking Questions on Handwritten Document Collections. \venue{International Journal on Document Analysis and Recognition}.
+\item Mafla, A., Tito, R., Dey, S., Gomez, L., Rusiñol, M., Valveny, E., Karatzas, D. (2021). Real-time lexicon-free scene text retrieval. \venue{Pattern Recognition}.
+\item Bazazian, D., Gomez, R., Nicolaou, A., Gomez, L., Karatzas, D., Bagdanov, A. (2017). FAST: Facilitated and Accurate Scene Text Proposals through FCN Guided Pruning. \venue{Pattern Recognition Letters}.
+\item Gomez, L., Nicolaou, A., Karatzas, D. (2017). Improving Patch-based Scene Text Script Identification with Ensembles of Conjoined Networks. \venue{Pattern Recognition}.
+\item Gomez, L., Karatzas, D. (2017). TextProposals: a Text-specific Selective Search Algorithm for Word Spotting in the Wild. \venue{Pattern Recognition}.
+\item Gomez, L., Karatzas, D. (2016). A Fast Hierarchical Method for Multi-script and Arbitrary Oriented Scene Text Extraction. \venue{International Journal on Document Analysis and Recognition}.
+\end{pubs}
+
+\subsection*{Book Chapters}
+\begin{pubs}
+\item Ruiz, S., Gomez, L. (2025). Charting Pathways: An Intersectional Impact Assessment for Vision and Language Foundation Models. In \venue{Women, Technology, and Power -- Unmasking (and dealing with) digital disparities in the times of the platforms}. Eds: M. Gutiérrez, A. Moreno Cano. Tirant lo Blanch.
+\item Gomez, R., Gomez, L., Gibert, J., Karatzas, D. (2019). Self-Supervised Learning from Web Data for Multimodal Retrieval. In \venue{Multimodal Scene Understanding: Algorithms, Applications and Deep Learning}. Eds: M.Y. Yang, B. Rosenhahn, V. Murino. ISBN: 9780128173596. Elsevier / Academic Press.
+\end{pubs}
+
+\subsection*{Peer-Reviewed Conference and Workshop Articles}
+\begin{pubs}
+\item El Aichouni, M., Kang, L., Gomez, L. (2027). Revisiting Fusion for Low-Data Multimodal Adaptation. \venue{Conference of the European Chapter of the Association for Computational Linguistics (EACL 2027)}. Accepted, to appear.
+\item Net, F., Molina, A., Llacer-Caro, S., Gomez, L. (2026). Revisiting how we access to historical archives: Auditing Gender Stereotypes and the Division of Labour in the Analysis of Historical Photography Collections. In Proc. \venue{20th International Conference on Document Analysis and Recognition (ICDAR 2026)}.
+\item Selvas-Sala, C., Kang, L., Gomez, L. (2026). SALMUBench: A Benchmark for Sensitive Association-Level Multimodal Unlearning. In Proc. \venue{IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2026)}.
+\item Gómez Grabowska, A., Gonzàlez, J., Gomez, L. (2026). Debiasing CLIP with Neural Interventions. In Proc. \venue{48th European Conference on Information Retrieval (ECIR 2026)}.
+\item Gomez, L. (2026). Rethinking Membership Inference Attacks for CLIP. In Proc. \venue{40th AAAI Conference on Artificial Intelligence (AAAI-26)}.
+\item Gomez, L. (2025). Measuring Text-Image Retrieval Fairness with Synthetic Data. In Proc. \venue{48th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR 2025)}.
+\item Gomez, L. (2025). Over the Top-1: Uncertainty-Aware Cross-Modal Retrieval with CLIP. In Proc. \venue{41st Conference on Uncertainty in Artificial Intelligence (UAI 2025)}.
+\item El Aichouni, M., Gomez, L., Kang, L. (2025). Mitigating Distribution Bias in Multimodal Datasets via Clustering-Based Curation. In Proc. \venue{Iberian Conference on Pattern Recognition and Image Analysis (IbPRIA 2025)}.
+\item Net, F., Gomez, L. (2024). EUFCC-CIR: A Composed Image Retrieval Dataset for GLAM Collections. In \venue{European Conference on Computer Vision (ECCV 2024) Workshops}.
+\item Kang, L., Yang, F., Wang, K., Souibgui, M.A., Gomez, L., Fornés, A., Valveny, E., Karatzas, D. (2024). GRIF-DM: Generation of Rich Impression Fonts using Diffusion Models. In Proc. \venue{27th European Conference on Artificial Intelligence (ECAI 2024)}.
+\item Kang, L., Souibgui, M.A., Yang, F., Gomez, L., Valveny, E., Karatzas, D. (2024). Machine Unlearning for Document Classification. In Proc. \venue{International Conference on Document Analysis and Recognition (ICDAR 2024)}.
+\item Net, F., Hernández, N., Molina, A., Gomez, L. (2024). A Transformer-Based Object-Centric Approach for Date Estimation of Historical Photographs. In Proc. \venue{46th European Conference on Information Retrieval (ECIR 2024)}.
+\item Nguyen, K., Biten, A.F., Mafla, A., Gomez, L., Karatzas, D. (2023). Show, Interpret and Tell: Entity-aware Contextualised Image Captioning in Wikipedia. In Proc. \venue{37th AAAI Conference on Artificial Intelligence (AAAI-23)}.
+\item Souibgui, M.A., Biswas, S., Mafla, A., Biten, A.F., Fornés, A., Kessentini, Y., Lladós, J., Gomez, L., Karatzas, D. (2023). Text-DIAE: A Self-Supervised Degradation Invariant Autoencoders for Text Recognition and Document Enhancement. In Proc. \venue{37th AAAI Conference on Artificial Intelligence (AAAI-23)}.
+\item Net, F., Folia, M., Casals-Puig, P., Gomez, L. (2023). Transductive Learning for Near-Duplicate Image Detection in Scanned Photo Collections. In Proc. \venue{International Conference on Document Analysis and Recognition (ICDAR 2023)}.
+\item Molina, A., Gomez, L., Ramos Terrades, O., Lladós, J. (2022). A Generic Image Retrieval Method for Date Estimation of Historical Document Collections. In Proc. \venue{IAPR Workshop on Document Analysis Systems (DAS)}.
+\item Vivoli, E., Biten, A.F., Mafla, A., Karatzas, D., Gomez, L. (2022). MUST-VQA: MUltilingual Scene-Text VQA. In \venue{European Conference on Computer Vision (ECCV 2022) Workshops}.
+\item Brugués i Pujolràs, J., Gomez, L., Karatzas, D. (2022). A Multilingual Approach to Scene Text Visual Question Answering. In Proc. \venue{IAPR Workshop on Document Analysis Systems (DAS)}.
+\item Biten, A.F., Tito, R., Gomez, L., Valveny, E., Karatzas, D. (2022). OCR-IDL: OCR Annotations for Industry Document Library Dataset. In \venue{European Conference on Computer Vision (ECCV 2022) Workshops}.
+\item Biten, A.F., Mafla, A., Gomez, L., Karatzas, D. (2022). Is An Image Worth Five Sentences? A New Look into Semantics for Image-Text Matching. In Proc. \venue{IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)}.
+\item Biten, A.F., Gomez, L., Karatzas, D. (2022). Let there be a clock on the beach: Reducing Object Hallucination in Image Captioning. In Proc. \venue{IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)}.
+\item Souibgui, M.A., Biten, A.F., Dey, S., Fornés, A., Kessentini, Y., Gomez, L., Karatzas, D., Lladós, J. (2022). One-shot Compositional Data Generation for Low Resource Handwritten Text Recognition. In Proc. \venue{IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)}.
+\item Molina, A., Riba, P., Gomez, L., Ramos-Terrades, O., Lladós, J. (2021). Date Estimation in the Wild of Scanned Historical Photos: An Image Retrieval Approach. In Proc. \venue{International Conference on Document Analysis and Recognition (ICDAR)}.
+\item Riba, P., Molina, A., Gomez, L., Ramos-Terrades, O., Lladós, J. (2021). Learning to Rank Words: Optimizing Ranking Metrics for Word Spotting. In Proc. \venue{International Conference on Document Analysis and Recognition (ICDAR)}.
+\item Mafla, A., Rezende, R.S., Gomez, L., Larlus, D., Karatzas, D. (2021). StacMR: Scene-Text Aware Cross-Modal Retrieval. In Proc. \venue{IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)}.
+\item Mafla, A., Dey, S., Biten, A.F., Gomez, L., Karatzas, D. (2021). Multi-modal reasoning graph for scene-text based fine-grained image classification and retrieval. In Proc. \venue{IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)}.
+\item Janouskova, K., Matas, J., Gomez, L., Karatzas, D. (2020). Text recognition -- real world data and where to find them. In Proc. \venue{International Conference on Pattern Recognition (ICPR)}.
+\item Reddy, S., Mathew, M., Gomez, L., Rusiñol, M., Karatzas, D., Jawahar, C.V. (2020). RoadText-1K: Text Detection and Recognition Dataset for Driving Videos. In Proc. \venue{IEEE International Conference on Robotics and Automation (ICRA)}.
+\item Mafla, A., Dey, S., Biten, A.F., Gomez, L., Karatzas, D. (2020). Fine-grained Image Classification and Retrieval by Combining Visual and Locally Pooled Textual Features. In Proc. \venue{IEEE Winter Conference on Applications of Computer Vision (WACV)}.
+\item Gomez, R., Gibert, J., Gomez, L., Karatzas, D. (2020). Exploring Hate Speech Detection in Multimodal Publications. In Proc. \venue{IEEE Winter Conference on Applications of Computer Vision (WACV)}.
+\item Biten, A.F., Tito, R., Mafla, A., Gomez, L., Rusiñol, M., Valveny, E., Jawahar, C.V., Karatzas, D. (2019). Scene Text Visual Question Answering. In Proc. \venue{International Conference on Computer Vision (ICCV)}.
+\item Rusiñol, M., Gomez, L., Landman, A., Silva-Constenla, M., Karatzas, D. (2019). Automatic Structured Text Reading for License Plates and Utility Meters. \venue{BMVC Workshop on Visual AI and Entrepreneurship (VAIE)}.
+\item Patel, Y., Gomez, L., Rusiñol, M., Karatzas, D., Jawahar, C.V. (2019). Self-Supervised Visual Representations for Cross-Modal Retrieval. In Proc. \venue{International Conference on Multimedia Retrieval (ICMR)}.
+\item Gomez, R., Biten, A.F., Gomez, L., Gibert, J., Rusiñol, M., Karatzas, D. (2019). Selective Style Transfer for Text. In Proc. \venue{International Conference on Document Analysis and Recognition (ICDAR)}.
+\item Biten, A.F., Tito, R., Mafla, A., Gomez, L., Rusiñol, M., Mathew, M., Jawahar, C.V., Valveny, E., Karatzas, D. (2019). ICDAR 2019 Competition on Scene Text Visual Question Answering. In Proc. \venue{International Conference on Document Analysis and Recognition (ICDAR)}.
+\item Biten, A.F., Gomez, L., Rusiñol, M., Karatzas, D. (2019). Good News, Everyone! Context driven entity-aware captioning for news images. In Proc. \venue{IEEE Conference on Computer Vision and Pattern Recognition (CVPR)}.
+\item Gomez, L., Mafla, A., Rusiñol, M., Karatzas, D. (2018). Single Shot Scene Text Retrieval. In Proc. \venue{European Conference on Computer Vision (ECCV)}.
+\item Gomez, R., Gomez, L., Gibert, J., Karatzas, D. (2018). Learning to Learn from Web Data through Deep Semantic Embeddings. \venue{Multimodal Learning and Applications Workshop, ECCV Workshops}.
+\item Gomez, R., Gomez, L., Gibert, J., Karatzas, D. (2018). Learning from \#Barcelona Instagram data. \venue{Multimodal Learning and Applications Workshop, ECCV Workshops}.
+\item Gomez, L., Rusiñol, M., Karatzas, D. (2018). Cutting Sayre's Knot: Reading Scene Text without Segmentation. Application to Utility Meters. In Proc. \venue{13th IAPR International Workshop on Document Analysis Systems (DAS)}.
+\item Karatzas, D., Gomez, L., Rusiñol, M., Nicolaou, A. (2018). The Robust Reading Competition Annotation and Evaluation Platform. In Proc. \venue{13th IAPR International Workshop on Document Analysis Systems (DAS)}.
+\item Gomez, L., Rusiñol, M., Karatzas, D. (2017). LSDE: Levenshtein Space Deep Embedding for Query-by-string Word Spotting. In Proc. \venue{14th International Conference on Document Analysis and Recognition (ICDAR)}.
+\item Gomez, R., Shi, B., Gomez, L., Neumann, L., Veit, A., Matas, J., Belongie, S., Karatzas, D. (2017). ICDAR2017 Robust Reading Challenge on COCO-Text. In Proc. \venue{14th International Conference on Document Analysis and Recognition (ICDAR)}.
+\item Iwamura, M., Morimoto, N., Tainaka, K., Bazazian, D., Gomez, L., Karatzas, D. (2017). ICDAR2017 Robust Reading Challenge on Omnidirectional Video. In Proc. \venue{14th International Conference on Document Analysis and Recognition (ICDAR)}.
+\item Gomez, L., Patel, Y., Rusiñol, M., Karatzas, D., Jawahar, C.V. (2017). Self-supervised learning of visual features through embedding images into text topic spaces. In Proc. \venue{IEEE Conference on Computer Vision and Pattern Recognition (CVPR)}.
+\item Karatzas, D., Gomez, L., Rusiñol, M. (2017). The Robust Reading Competition Annotation and Evaluation Platform. \venue{1st International Workshop on Open Services and Tools for Document Analysis}.
+\item Patel, Y., Gomez, L., Rusiñol, M., Karatzas, D. (2016). Dynamic Lexicon Generation for Natural Scene Images. \venue{2nd International Workshop on Robust Reading, ECCV Workshops}.
+\item Bazazian, D., Gomez, R., Nicolaou, A., Gomez, L., Karatzas, D., Bagdanov, A. (2016). Improving Text Proposals for Scene Images with Fully Convolutional Networks. \venue{1st Workshop on Deep Learning for Pattern Recognition, ICPR Workshops}.
+\item Gomez, L., Karatzas, D. (2016). A Fine Grained Classification Approach to Scene Text Script Identification. In Proc. \venue{12th IAPR International Workshop on Document Analysis Systems (DAS)}.
+\item Nicolaou, A., Gomez, L., Karatzas, D. (2016). Visual Script and Language Identification. In Proc. \venue{12th IAPR International Workshop on Document Analysis Systems (DAS)}.
+\item Gomez, L., Karatzas, D. (2015). Object Proposals for Text Extraction in the Wild. In Proc. \venue{13th International Conference on Document Analysis and Recognition (ICDAR)}.
+\item Karatzas, D., Gomez, L., Nicolaou, A., Ghosh, S., Bagdanov, A., Iwamura, M., Matas, J., Neumann, L., Ramaseshan Chandrasekhar, V., Lu, S., Shafait, F., Uchida, S., Valveny, E. (2015). ICDAR 2015 Robust Reading Competition. In Proc. \venue{13th International Conference on Document Analysis and Recognition (ICDAR)}.
+\item Ghosh, S., Gomez, L., Karatzas, D., Valveny, E. (2015). Efficient indexing for Query By String text retrieval. In Proc. \venue{13th International Conference on Document Analysis and Recognition (ICDAR)}.
+\item Gomez, L., Karatzas, D. (2014). Scene Text Recognition: No Country for Old Men? \venue{Computer Vision -- ACCV 2014 Workshops}. Springer.
+\item Gomez, L., Karatzas, D. (2014). MSER-Based Real-Time Text Detection and Tracking. In Proc. \venue{22nd International Conference on Pattern Recognition (ICPR)}.
+\item Karatzas, D., Robles, S., Gomez, L. (2014). An on-line platform for ground truthing and performance evaluation of text extraction systems. In Proc. \venue{11th IAPR International Workshop on Document Analysis Systems (DAS)}.
+\item Gomez, L., Karatzas, D. (2013). Multi-script text extraction from natural scenes. In Proc. \venue{12th International Conference on Document Analysis and Recognition (ICDAR)}.
+\item Karatzas, D., Shafait, F., Uchida, S., Iwamura, M., Gomez, L., Robles Mestre, S., Mas, J., Fernandez, D., Almazan, J., de las Heras, L.P. (2013). ICDAR 2013 Competition on Robust Reading. In Proc. \venue{12th International Conference on Document Analysis and Recognition (ICDAR)}.
+\end{pubs}
+
+%-------------------------------------------------------------------------------
+\section*{Invited Talks, Conference Tutorials and Demonstrations}
+\begin{entries}
+\item 2023: Gomez, L. Deep Archive: Exploring the past with artificial intelligence. Invited Talk at the Experiment.AI event.
+\item 2020: Gomez, L. Scene Text Understanding beyond OCR. Invited Talk at the BCN.ai Winter event.
+\item 2019: Gomez, L. Scene Text Visual Question Answering. Invited Talk at the Deep Learning Barcelona Symposium (DLBCN 2019).
+\item 2019: Karatzas, D., Rusiñol, M., Gomez, L., Gomez, R., Gibert, J., Patel, Y. Vision and Language: the text modality in Computer Vision. Tutorial at the 15th International Conference on Document Analysis and Recognition (ICDAR 2019).
+\item 2018: Gomez, L. Self-supervised learning of visual features through embedding images into text topic spaces. Invited Talk at the Deep Learning Barcelona Symposium (DLBCN 2018).
+\item 2018: Gomez, L. Exploring large document collections by visualizing multi-modal Deep Semantic Embeddings. Invited Talk at the 2018 meeting of the Institute for Document Analysis and Knowledge Science (IDAKS).
+\item 2018: Gomez, L. Text and Vision: from scene text understanding to deep semantic embeddings. Seminar at the Media Integration and Communication Center (MICC), Florence.
+\item 2016: Gordo, A., Gomez, L. Scene-Text Localization, Recognition, and Understanding. Tutorial at the 12th IAPR International Workshop on Document Analysis Systems (DAS 2016).
+\item 2013: Gomez, L., Karatzas, D. Demonstration of a Human Perception Inspired System for Text Extraction from Natural Scenes. Demo at the 12th International Conference on Document Analysis and Recognition (ICDAR 2013).
+\end{entries}
+
+%-------------------------------------------------------------------------------
+\section*{Grants, Fellowships, \& Awards}
+\begin{entries}
+\item EuroHPC AI \& Data-Intensive Applications Access Call (EHPC-AI-2024A02-040), 32,000 node hours on MareNostrum5, 2024.
+\item Ramón y Cajal Research Fellowship (RYC2020-030777-I), Spanish Government Plan for Scientific Research and Innovation, 2020.
+\item H2020 Marie Skłodowska-Curie actions of the European Union, grant agreement No 712949 (TECNIOspring PLUS), 2018.
+\item NVIDIA GPU Grant program recipient, 2018.
+\item Catalan University and Research Agency (AGAUR), Dissertation Completion Fellowship, 2016.
+\item Google Summer of Code program recipient, 2014.
+\item Japan Student Services Organization (JASSO), Student Exchange Support Program Scholarship, 2013.
+\item Google Summer of Code program recipient, 2013.
+\item Catalan University and Research Agency (AGAUR), Research Fellowship, 2012--2016.
+\item Computer Vision Center, Research Scholarship, 2012.
+\item Universitat Oberta de Catalunya, M.Sc. Thesis Excellence Distinction, 2011.
+\item Spanish Ministry of Science and Education Scholarship, 2010.
+\item Catalan University and Research Agency (AGAUR), Enginycat Scholarship, 2009.
+\item V2 Institute for the Unstable Media, exStream Residency Program finalist, 2004.
+\item Provincial Government of Barcelona, Special Jury Mention, Best Digital Publishing Award, 1999.
+\item Universitat Autònoma de Barcelona, Steria-UAB University-Enterprise Fellowship, 1999.
+\end{entries}
+
+%-------------------------------------------------------------------------------
+\section*{Participation in R\&D Projects}
+\begin{entries}
+\item 2025--2026: InterVisions -- Participatory AI for Intersectional Bias Auditing (CERV 101214711). Coordinated by ALIA -- Associació Cultural de Dones per a la Recerca i l'Acció, with CVC-UAB as research partner. Funded by the European Union, CERV programme (245,417 €).
+\item 2024--2025: FairCLIP -- Training a Fair CLIP Model with Hybrid Real and Synthetic Data (EHPC-AI-2024A02-040). Principal Investigator: Lluis Gomez. Funded by EuroHPC JU (32,000 node hours on MareNostrum5).
+\item 2023--2025: COELI-IA -- From Text to Media: A Paradigm Shift in Cultural Heritage Management (RDECR20/EMT/1791/2021). CVC Lead: Lluis Gomez. Funded by ACCIÓ, INNOTEC R+D programme, Catalan Government (195,530 €; CVC share 84,446 €).
+\item 2021--2023: ReadQA -- Reading Systems for Visual Question Answering (PID2020-116298GB-I00). Principal Investigators: Dimosthenis Karatzas and Lluis Gomez. Funded by Spanish Ministry of Science and Innovation (89,419 €).
+\item 2020--2021: BeARS -- Beyond Automatic Reading Systems. Principal Investigators: Marçal Rusiñol and Lluis Gomez. Funded by AGAUR (97,000 €).
+\item 2018--2020: DeepPhotoArchive. Principal Investigator: Lluis Gomez. Funded by TECNIOspring PLUS / H2020 MSCA / ACCIÓ (113,339 €).
+\item 2018--2020: READS -- Reading the Scene (TIN2017-89779P). Principal Investigators: Dimosthenis Karatzas and Ernest Valveny. Funded by Spanish Ministry of Economy, Industry and Competitiveness (81,554 €).
+\item 2018--2019: Semantic Search in Digital Newspaper Libraries. Principal Investigator: Marçal Rusiñol. Funded by Fundación BBVA (74,526 €).
+\item 2015--2017: RAW -- Reading in the Wild (TIN2014-52072P). Principal Investigator: Dimosthenis Karatzas. Funded by Spanish Ministry of Economy and Competitiveness (109,021 €).
+\item 2012--2014: Text and the City -- Human Centred Scene Text Understanding (TIN2011-24631). Principal Investigator: Dimosthenis Karatzas. Funded by Spanish Ministry of Science and Innovation (78,045 €).
+\item 2010--2013: Knowledge Extraction from Document Images with Heterogeneous Contents (TIN2009-14633-C03-03). Principal Investigator: Josep Lladós. Funded by Spanish Ministry of Science and Innovation (195,000 €).
+\item 2009--2011: HuPerText -- Human Perception Inspired Text Technologies (TIN2008-04998). Principal Investigator: Dimosthenis Karatzas. Funded by Spanish Ministry of Science and Innovation (49,610 €).
+\end{entries}
+
+%-------------------------------------------------------------------------------
+\section*{Supervision}
+\subsection*{Ph.D. Theses}
+\begin{entries}
+\item Francesc Net Barnes (in progress), Universitat Autònoma de Barcelona.
+\item Sofia Llàcer Caro (in progress), Universitat Autònoma de Barcelona.
+\item Ali Furkan Biten (2022). A Bitter-Sweet Symphony on Vision and Language: Bias and World Knowledge. Universitat Autònoma de Barcelona.
+\item Andrés Patricio Mafla Delgado (2022). Leveraging Scene Text Information for Image Interpretation. Universitat Autònoma de Barcelona.
+\item Raúl Álamo Gómez Bruballa (2020). Exploiting the Interplay between Visual and Textual Image Content for Scene Interpretation. Universitat Autònoma de Barcelona.
+\end{entries}
+
+\subsection*{M.Sc. Theses}
+\begin{entries}
+\item Saranne van der Linde (2024--25). Decoding Emotions in Motion: Multimodal Emotion Recognition Tool for Migrant Videos. M.Sc. Computer Vision, UAB.
+\item Razvan-Florin Apatean (2022--23). Improving Zero-shot Composed Image Retrieval for images with multiple objects. M.Sc. Computer Vision, UAB.
+\item Hicham El Muhandiz Aarab (2022--23). Empirical Study of Uncertainty Estimation Techniques for Zero-Shot Image Classification Pre-trained CLIP models. M.Sc. Computer Vision, UAB.
+\item Joan Fontanals Martínez (2021--22). 2-phase cross-modal search. Combining dual encoders with Vision and Language Transformers. M.Sc. Computer Vision, UAB.
+\item Albert Jiménez Tauste (2020--21). Automated Video Editing for Synchronized Mobile Recordings of Concerts. M.Sc. Computer Vision, UAB.
+\item Josep Brugués i Pujolràs (2020--21). Scene Text Visual Question Answering and Visual Question Generation: A Multilingual Approach. M.Sc. Computer Vision, UAB.
+\item Roger Casals Vilardell (2019--20). Conditional GAN for Synthetic Text Dataset Generation. M.Sc. Computer Vision, UAB.
+\item Diego Ernesto Apestegui Quesada (2018--19). Creation of a Large-Scale Weakly-Annotated Dataset of Supermarket Grocery Products for Computer Vision. M.Sc. Computer Engineering, UAB.
+\end{entries}
+
+%-------------------------------------------------------------------------------
+\section*{Professional Activities}
+\begin{entries}
+\item Reviewer for CVPR, ICCV, ECCV, ICLR, International Journal of Computer Vision, IEEE Transactions on Pattern Analysis and Machine Intelligence, Pattern Recognition, Computer Vision and Image Understanding, International Journal on Document Analysis and Recognition, Neurocomputing, IEEE Transactions on Image Processing, Packt Publishing.
+\item Workshop Chair, International Workshop on Camera Based Document Analysis and Recognition (2019).
+\item Workshop Chair, International Workshop on Robust Reading (2018).
+\item Programme Committee member, International Workshop on Document Analysis Systems (2018).
+\item Programme Committee member, Workshop on Computer Vision for Fashion, Art and Design (2018).
+\item Area Chair, International Conference on Document Analysis and Recognition (2017).
+\item Workshop Chair, International Workshop on Camera Based Document Analysis and Recognition (2017).
+\item Programme Committee member, International Workshop on Robust Reading (2014, 2016).
+\item Programme Committee member, Workshop on Camera Based Document Analysis and Recognition (2013).
+\item Member, Computer Vision Foundation, 2017--present.
+\item Member, International Association for Pattern Recognition, 2013--present.
+\end{entries}
+
+%-------------------------------------------------------------------------------
+\section*{Teaching and Invited Seminars}
+\subsection*{Universitat Autònoma de Barcelona}
+\begin{entries}
+\item Knowledge, Reasoning, and Uncertainty (B.Sc. Computer Science), Lecturer (2022--present).
+\item Synthesis Project I (B.Sc. Artificial Intelligence), Project Tutor.
+\item Visual Recognition (M.Sc. Computer Vision), Invited Lecturer (2016--present).
+\item Machine Learning for Computer Vision (M.Sc. Computer Vision), Invited Lecturer (2016--present).
+\item Fundamentals of Natural Language (B.Sc. Artificial Intelligence), Lecturer (2022--2023).
+\item Artificial Neural Networks and Deep Learning (B.Sc. Data Engineering), Lecturer (2021--2022).
+\item Artificial Neural Networks and Deep Learning (B.Sc. Computational Mathematics and Data Analytics), Lecturer (2019--2021).
+\item Object-Oriented Programming (B.Sc. Computational Mathematics and Data Analytics), Teaching Assistant (2018--2020).
+\item Advanced Programming (B.Sc. Data Engineering), Teaching Assistant (2018--19).
+\item Pattern Recognition (M.Sc. Computer Science), Teaching Assistant (2014--15).
+\end{entries}
+
+\subsection*{ENTI (School of New Interactive Technologies) -- Universitat de Barcelona}
+\begin{entries}
+\item Artificial Intelligence (B.Sc. Interactive Digital Content), Lecturer (2017--present).
+\end{entries}
+
+\subsection*{Universitat Politècnica de València}
+\begin{entries}
+\item Computer Vision (M.Sc. Multimedia), Seminar (2011).
+\end{entries}
+
+\subsection*{BALTAN Laboratories, Eindhoven}
+\begin{entries}
+\item Computer Vision Seminar (2009).
+\end{entries}
+
+\subsection*{Artfutura Festival, Barcelona}
+\begin{entries}
+\item Pure Data Real-Time Programming Seminar (2004).
+\end{entries}
+
+%-------------------------------------------------------------------------------
+\section*{Research Stays}
+\subsection*{University of Florence, Italy}
+\begin{entries}
+\item Media Integration and Communication Center, Invited Researcher (2018--19).
+\end{entries}
+\subsection*{Osaka Prefecture University, Japan}
+\begin{entries}
+\item Intelligent Media Processing Group, Invited Researcher (Jan.\ 2013 -- Mar.\ 2013).
+\end{entries}
+
+%-------------------------------------------------------------------------------
+\section*{Programming Skills}
+\begin{entries}
+\item Programming Languages: C, C++, Python, Java, Objective-C, Matlab, GNU Octave, \LaTeX, C\#, Perl, PHP, SQL, Pure-Data.
+\item Software Libraries and Frameworks: TensorFlow, Caffe, PyTorch, OpenCV, NumPy, SciPy, Matplotlib, Boost, OpenGL, FFmpeg, GStreamer, ARToolKit and ARToolKitPlus, TUIO, Qt, Tcl/Tk, GTK+, v4l and v4l2, dv1394 and dc1394, JavaME and Android SDK.
+\item Knowledge of Linux kernel device module programming.
+\end{entries}
+
+\vfill
+{\small\textit{Last updated: \today}}
+
+\end{document}
